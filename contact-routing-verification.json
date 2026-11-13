@@ -1,0 +1,174 @@
+{
+  "fixed": [
+    {
+      "file": "dist/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/404.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/privacy/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/what-we-create/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/client-stories/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/who-we-are/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/contact/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/our-approach/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/terms/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/work/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/404/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/san-media/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/vynk/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/thenga/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/siaara/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/ines-morrow/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/maren-holt/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/tidings/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/livecv/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/vesper/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/vyrn/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/saanjh/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/derlin-haus/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/sagewell/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/hidden-stories/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/aeroskys/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/aivinci/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/emberpost/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/aeroskys-careers/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/demonstration-portfolio/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/mahira-select/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/demonstration-desk/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/vantline/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/aaradhya/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/tavra/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/finsmith/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/demonstration-cinematic/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/velune/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/sedile/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/one-piece/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "dist/projects/velora/index.html",
+      "replacements": 1
+    }
+  ],
+  "htmlDocuments": 41,
+  "chatFallbacksChecked": 41,
+  "remainingOriginalContactMatches": 0,
+  "htmlEmails": [
+    "contact@zyberlane.com"
+  ]
+}
