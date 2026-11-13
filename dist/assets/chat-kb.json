@@ -1,0 +1,2872 @@
+{
+  "v": 1,
+  "built": "2026-11-10",
+  "brand": {
+    "name": "Zyberlane",
+    "full": "Zyberlane",
+    "tagline": "Clear goals. Practical scope. Human review."
+  },
+  "nav": {
+    "": "Home",
+    "who-we-are": "Who We Are",
+    "what-we-create": "What We Create",
+    "our-approach": "Our Approach",
+    "work": "The Work",
+    "client-stories": "Client Stories",
+    "contact": "Contact"
+  },
+  "contact": {
+    "email": "contact@zyberlane.com",
+    "form": {
+      "r": "contact",
+      "f": "project-form"
+    },
+    "socials": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Zyberlane"
+      },
+      {
+        "label": "WhatsApp",
+        "url": "/contact/index.html"
+      }
+    ],
+    "booking_url": ""
+  },
+  "pricing": {
+    "cur": {
+      "INR": {
+        "sym": "₹",
+        "name": "rupees",
+        "long": "Indian rupees",
+        "grp": "in"
+      },
+      "EUR": {
+        "sym": "€",
+        "name": "euros",
+        "long": "euros"
+      },
+      "GBP": {
+        "sym": "£",
+        "name": "pounds",
+        "long": "British pounds"
+      },
+      "USD": {
+        "sym": "US$",
+        "name": "US dollars",
+        "long": "US dollars"
+      },
+      "AED": {
+        "sym": "AED ",
+        "name": "UAE dirhams",
+        "long": "UAE dirhams"
+      },
+      "CAD": {
+        "sym": "CA$",
+        "name": "Canadian dollars",
+        "long": "Canadian dollars"
+      },
+      "AUD": {
+        "sym": "A$",
+        "name": "Australian dollars",
+        "long": "Australian dollars"
+      },
+      "SGD": {
+        "sym": "S$",
+        "name": "Singapore dollars",
+        "long": "Singapore dollars"
+      }
+    }
+  },
+  "regions": {
+    "tz": {
+      "AED": "Asia/Dubai",
+      "AUD": "Antarctica/Macquarie",
+      "CAD": "America/Atikokan America/Blanc-Sablon America/Cambridge_Bay America/Creston America/Dawson America/Dawson_Creek America/Edmonton America/Fort_Nelson America/Glace_Bay America/Goose_Bay America/Halifax America/Inuvik America/Iqaluit America/Moncton America/Montreal America/Nipigon America/Pangnirtung America/Rainy_River America/Rankin_Inlet America/Regina America/Resolute America/St_Johns America/Swift_Current America/Thunder_Bay America/Toronto America/Vancouver America/Whitehorse America/Winnipeg America/Yellowknife",
+      "EUR": "Africa/Ceuta Arctic/Longyearbyen Asia/Famagusta Asia/Nicosia Atlantic/Azores Atlantic/Canary Atlantic/Faroe Atlantic/Madeira Atlantic/Reykjavik",
+      "GBP": "Europe/Belfast Europe/Guernsey Europe/Isle_of_Man Europe/Jersey Europe/London GB GB-Eire",
+      "INR": "Asia/Calcutta Asia/Kolkata",
+      "SGD": "Asia/Singapore Singapore",
+      "USD": "America/Adak America/Anchorage America/Boise America/Chicago America/Denver America/Detroit America/Fort_Wayne America/Indiana/Indianapolis America/Indiana/Knox America/Indiana/Marengo America/Indiana/Petersburg America/Indiana/Tell_City America/Indiana/Vevay America/Indiana/Vincennes America/Indiana/Winamac America/Indianapolis America/Juneau America/Kentucky/Louisville America/Kentucky/Monticello America/Los_Angeles America/Louisville America/Menominee America/Metlakatla America/New_York America/Nome America/North_Dakota/Beulah America/North_Dakota/Center America/North_Dakota/New_Salem America/Phoenix America/Puerto_Rico America/Sitka America/Yakutat Pacific/Guam Pacific/Honolulu Pacific/Saipan"
+    },
+    "prefix": {
+      "Europe/": "EUR",
+      "Australia/": "AUD",
+      "Canada/": "CAD",
+      "US/": "USD"
+    },
+    "tz_unknown": "Europe/Moscow Europe/Kaliningrad Europe/Samara Europe/Volgograd Europe/Kirov Europe/Astrakhan Europe/Saratov Europe/Ulyanovsk Europe/Minsk Europe/Istanbul Europe/Simferopol Asia/Istanbul",
+    "tz_near": "Europe/Zurich Europe/Vaduz Europe/Busingen Europe/Oslo Europe/Stockholm Europe/Copenhagen Europe/Warsaw Europe/Prague Europe/Budapest Europe/Bucharest Europe/Belgrade Europe/Sarajevo Europe/Skopje Europe/Tirane Europe/Chisinau Europe/Kyiv Europe/Kiev Europe/Uzhgorod Europe/Zaporozhye Europe/Gibraltar Atlantic/Reykjavik Atlantic/Faroe Arctic/Longyearbyen",
+    "lang": {
+      "INR": "IN",
+      "GBP": "GB",
+      "USD": "US PR",
+      "CAD": "CA",
+      "AUD": "AU",
+      "SGD": "SG",
+      "AED": "AE",
+      "EUR": "AT BE BG CY DE EE ES FI FR GR HR IE IT LT LU LV MT NL PT SI SK CH LI NO SE DK IS PL CZ HU RO"
+    },
+    "lang_near": "CH LI NO SE DK IS PL CZ HU RO",
+    "places": {
+      "INR|India": "india hyderabad bangalore bengaluru mumbai delhi chennai kolkata pune",
+      "GBP|the UK": "uk united_kingdom england london britain scotland wales manchester",
+      "EUR|Germany": "germany berlin munich",
+      "EUR|France": "france paris",
+      "EUR|Europe": "europe eu",
+      "EUR|Spain": "spain madrid barcelona",
+      "EUR|Italy": "italy milan rome",
+      "EUR|the Netherlands": "netherlands holland amsterdam",
+      "EUR|Ireland": "ireland dublin",
+      "EUR|Portugal": "portugal lisbon",
+      "EUR|Belgium": "belgium brussels",
+      "EUR|Austria": "austria vienna",
+      "USD|the US": "usa america united_states new_york california texas",
+      "AED|the UAE": "uae dubai abu_dhabi emirates united_arab_emirates sharjah",
+      "CAD|Canada": "canada toronto vancouver montreal",
+      "AUD|Australia": "australia sydney melbourne",
+      "SGD|Singapore": "singapore"
+    },
+    "other_places": "japan china brazil mexico russia nigeria kenya pakistan bangladesh nepal saudi qatar yen yuan"
+  },
+  "faq": [
+    {
+      "q": "What does Zyberlane do?",
+      "a": "We build business websites, landing pages, portfolios, web applications and custom digital tools, alongside AI integrations and automation. E-commerce, booking and other custom solutions are scoped around your requirements."
+    },
+    {
+      "q": "How do I get a quotation?",
+      "a": "Tell us about your business, what you need and any requirements. Email contact@zyberlane.com so we can review the scope and provide a quotation."
+    },
+    {
+      "q": "Where do you work?",
+      "a": "Zyberlane is based in Sri Lanka and works remotely with businesses worldwide."
+    },
+    {
+      "q": "Do I need a complete brief?",
+      "a": "Share your goals and requirements. We can discuss what fits and define a realistic scope."
+    },
+    {
+      "q": "How much does a project cost?",
+      "a": "Pricing depends on scope, functionality, design requirements and complexity. A quotation follows review."
+    },
+    {
+      "q": "What services are available?",
+      "a": "Web Design & Development; Branding & Creative; Digital Marketing; Social Media & Content; Search & AI Visibility; AI & Business Automation."
+    },
+    {
+      "q": "Can you add e-commerce or booking?",
+      "a": "Yes, depending on requirements and feasibility. Complex systems receive a custom quotation."
+    },
+    {
+      "q": "Can you create an interactive experience?",
+      "a": "Share the intended interaction. Its scope, feasibility and testing requirements must be agreed before development."
+    },
+    {
+      "q": "Do you build web applications?",
+      "a": "Web applications and custom digital tools are scoped around your requirements."
+    },
+    {
+      "q": "How is a project scoped?",
+      "a": "We discuss goals, users, requirements and constraints before agreeing the work."
+    },
+    {
+      "q": "Can you redesign a website?",
+      "a": "We can assess the current site and discuss whether improving it or rebuilding parts makes sense."
+    },
+    {
+      "q": "Can you work internationally?",
+      "a": "Yes. Scope, communication, payment arrangements and requirements are agreed before work begins."
+    },
+    {
+      "q": "How does a project work?",
+      "a": "Discover the requirements, plan and design, develop and review, then test and arrange the agreed handover."
+    },
+    {
+      "q": "What happens after launch?",
+      "a": "Maintenance and support options are available. Significant new functionality may need a separate quotation."
+    },
+    {
+      "q": "Who coordinates the work?",
+      "a": "Founder Zyberlane coordinates project direction and communication, with project-based support around the agreed work."
+    },
+    {
+      "q": "What is Zyberlane?",
+      "a": "A founder-led digital business based in Sri Lanka, open to remote projects worldwide."
+    }
+  ],
+  "faq_url": {
+    "r": "",
+    "f": "faq"
+  },
+  "services": [
+    {
+      "id": "website-design",
+      "n": "01",
+      "name": "Web Design & Development",
+      "title": "Web Design & Development",
+      "body": "Responsive websites, landing pages, web applications and custom digital tools, scoped around your requirements.",
+      "tags": [
+        "Business websites",
+        "Landing pages",
+        "Portfolio websites",
+        "Website redesign",
+        "CMS workflows",
+        "Booking systems",
+        "Web applications",
+        "Responsive layouts"
+      ],
+      "src": "CREATE.services.0",
+      "price": null
+    },
+    {
+      "id": "website-development",
+      "n": "02",
+      "name": "Branding & Creative",
+      "title": "Branding & Creative",
+      "body": "Branding and creative work, with deliverables agreed around the project brief.",
+      "tags": [
+        "Project brief",
+        "Audience",
+        "Creative direction",
+        "Agreed deliverables",
+        "Review stages",
+        "Handover"
+      ],
+      "src": "CREATE.services.1",
+      "price": null
+    },
+    {
+      "id": "e-commerce",
+      "n": "03",
+      "name": "Digital Marketing",
+      "title": "Digital Marketing",
+      "body": "Digital marketing, including paid advertising, scoped around your business goals.",
+      "tags": [
+        "Digital marketing",
+        "Paid advertising",
+        "Business goals",
+        "Agreed scope",
+        "Project brief",
+        "Review stages",
+        "Next steps"
+      ],
+      "src": "CREATE.services.2",
+      "price": null
+    },
+    {
+      "id": "interactive-3d",
+      "n": "04",
+      "name": "Social Media & Content",
+      "title": "Social Media & Content",
+      "body": "Social media and content, with scope and responsibilities agreed before execution.",
+      "tags": [
+        "Social media",
+        "Content brief",
+        "Audience",
+        "Agreed scope",
+        "Responsibilities",
+        "Review stages"
+      ],
+      "src": "CREATE.services.3",
+      "price": null,
+      "note": "Every interaction has a purpose."
+    },
+    {
+      "id": "brand-kits-identity",
+      "n": "05",
+      "name": "Search & AI Visibility",
+      "title": "Search & AI Visibility",
+      "body": "Search visibility and AI-search readiness, scoped around the website and its requirements.",
+      "tags": [
+        "Technical SEO",
+        "On-page SEO",
+        "Search visibility",
+        "AEO",
+        "GEO",
+        "Structured data",
+        "AI-search readiness"
+      ],
+      "src": "CREATE.services.4",
+      "price": null
+    },
+    {
+      "id": "apps-saas",
+      "n": "06",
+      "name": "AI & Business Automation",
+      "title": "AI & Business Automation",
+      "body": "AI integrations and business workflow automation, subject to feasibility and human review.",
+      "tags": [
+        "AI assistants",
+        "Workflow automation",
+        "Form/API integrations",
+        "Notifications",
+        "Human review",
+        "Feasibility",
+        "Agreed scope"
+      ],
+      "src": "CREATE.services.5",
+      "price": null
+    },
+    {
+      "id": "ai-automation",
+      "n": "07",
+      "name": "Demonstration slot 07",
+      "title": "Demonstration slot 07",
+      "body": "Unpublished demonstration component. No additional Zyberlane service is advertised.",
+      "tags": [
+        "Demonstration only",
+        "Not a service offer",
+        "Content pending",
+        "Review required",
+        "Scope unpublished",
+        "Approval pending"
+      ],
+      "src": "CREATE.services.6",
+      "price": null
+    },
+    {
+      "id": "digital-strategy",
+      "n": "08",
+      "name": "Demonstration slot 08",
+      "title": "Demonstration slot 08",
+      "body": "Unpublished demonstration component. No additional Zyberlane service is advertised.",
+      "tags": [
+        "Demonstration only",
+        "Not a service offer",
+        "Content pending",
+        "Review required",
+        "Scope unpublished",
+        "Approval pending"
+      ],
+      "src": "CREATE.services.7",
+      "price": null
+    }
+  ],
+  "create": {
+    "title": "Digital experiences built around your business.",
+    "cta": [
+      "That's completely fine.",
+      "Tell us what you're trying to achieve.",
+      "We'll help you figure out what needs to be built."
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "n": "01",
+        "name": "Understand",
+        "sub": "First, we listen.",
+        "src": "APPROACH.steps.0",
+        "body": "Before we design anything, we learn about your business.",
+        "list": [
+          "Your goals.",
+          "Your audience.",
+          "Your competitors.",
+          "Your challenges.",
+          "Your vision."
+        ],
+        "end": "A clear understanding of what we're building and why."
+      },
+      {
+        "n": "02",
+        "name": "Define",
+        "sub": "Then, we find the direction.",
+        "src": "APPROACH.steps.1",
+        "body": "We turn everything we've learned into a clear plan.",
+        "list_intro": "We define:",
+        "list": [
+          "The structure",
+          "The user journey",
+          "The content",
+          "The functionality",
+          "The visual direction"
+        ],
+        "end": "A clear project blueprint."
+      },
+      {
+        "n": "03",
+        "name": "Explore",
+        "sub": "Now we start thinking differently.",
+        "src": "APPROACH.steps.2",
+        "body": "We explore ideas, layouts, references and visual directions.",
+        "ask": [
+          "This is where we ask:",
+          "What could this become?",
+          "Not:",
+          "What template should we use?"
+        ]
+      },
+      {
+        "n": "04",
+        "name": "Design",
+        "sub": "The idea starts to take shape.",
+        "src": "APPROACH.steps.3",
+        "body": "Everything starts coming together.",
+        "list": [
+          "Scope agreed together.",
+          "Colours.",
+          "Layouts.",
+          "Components.",
+          "Images.",
+          "Interactions."
+        ]
+      },
+      {
+        "n": "05",
+        "name": "Refine",
+        "sub": "Details make the difference.",
+        "src": "APPROACH.steps.4",
+        "body": "We review every important detail.",
+        "list": [
+          "Spacing.",
+          "Responsiveness.",
+          "Interactions.",
+          "Hierarchy.",
+          "Readability.",
+          "Motion."
+        ],
+        "end": "We refine until everything feels right."
+      },
+      {
+        "n": "06",
+        "name": "Build",
+        "sub": "Design meets technology.",
+        "src": "APPROACH.steps.5",
+        "body": "Once the direction is approved, we bring the experience to life.",
+        "end": "We develop the website, integrate the required functionality and make it responsive across devices."
+      },
+      {
+        "n": "07",
+        "name": "Test",
+        "sub": "Before people use it, we test it.",
+        "src": "APPROACH.steps.6",
+        "list": [
+          "Desktop.",
+          "Tablet.",
+          "Mobile.",
+          "Navigation.",
+          "Forms.",
+          "Animations.",
+          "Performance.",
+          "Content.",
+          "Functionality."
+        ]
+      },
+      {
+        "n": "08",
+        "name": "Launch",
+        "sub": "Ready for the world.",
+        "src": "APPROACH.steps.7",
+        "body": "Once everything is tested and approved, we launch.",
+        "end": "Your idea becomes a real digital experience."
+      },
+      {
+        "n": "09",
+        "name": "Evolve",
+        "sub": "Launch is not the end.",
+        "src": "APPROACH.steps.8",
+        "body": "Businesses change. Your website should be able to change with them.",
+        "end": "We can continue supporting, improving and evolving your digital experience as your business grows."
+      }
+    ]
+  },
+  "founder": {
+    "label": "The person behind ZYBERLANE",
+    "name": "Zyberlane",
+    "roles": [
+      "Founder",
+      "Project direction",
+      "Development"
+    ],
+    "journey": [
+      "Clear goals.",
+      "Practical scope.",
+      "Human review."
+    ],
+    "quote": "Project communication, direction and coordination led by Zyberlane.",
+    "body": [
+      "Dilukshan (Zyberlane) leads project communication, planning, direction and coordination, and handles suitable development work directly.",
+      "Zyberlane is founder-led, based in Sri Lanka and open to remote projects worldwide. Project scope and responsibilities are agreed before execution.",
+      "Project-based collaborators support suitable briefs. Human decisions, testing and review guide AI-assisted workflows."
+    ],
+    "src": "WHO.founder",
+    "url": {
+      "r": "who-we-are",
+      "f": "founder"
+    }
+  },
+  "work": {
+    "title": [
+      "We could tell you we're different.",
+      "But we'd rather show you."
+    ],
+    "body": "Divine Tattoo is the confirmed client project. All other retained project layouts are demonstrations awaiting approved content.",
+    "src": "WORK.hero"
+  },
+  "projects": [
+    {
+      "s": "aivinci",
+      "t": "Divine Tattoo",
+      "i": "Studio website · Content management",
+      "k": "client",
+      "th": "aivinci/gallery-05-480.webp",
+      "keys": [
+        "divine tattoo"
+      ],
+      "sum": "A responsive studio website with an artwork gallery and a custom content-management workflow."
+    },
+    {
+      "s": "aeroskys",
+      "t": "Demonstration 02",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "aeroskys/gallery-01-480.webp",
+      "keys": [
+        "demonstration 2"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "mahira-select",
+      "t": "Demonstration 03",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "mahira-select/gallery-01-480.webp",
+      "keys": [
+        "demonstration 3"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "e": 1
+    },
+    {
+      "s": "derlin-haus",
+      "t": "Demonstration 04",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "derlin-haus/gallery-04-480.webp",
+      "keys": [
+        "demonstration 4"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "e": 1
+    },
+    {
+      "s": "san-media",
+      "t": "Demonstration 05",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "san-media/gallery-01-480.webp",
+      "keys": [
+        "demonstration 5"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "siaara",
+      "t": "Demonstration 06",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "siaara/gallery-02-480.webp",
+      "keys": [
+        "demonstration 6"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "e": 1
+    },
+    {
+      "s": "vynk",
+      "t": "Demonstration 07",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "vynk/gallery-02-480.webp",
+      "keys": [
+        "demonstration 7"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "st": 1
+    },
+    {
+      "s": "livecv",
+      "t": "Demonstration 08",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "livecv/gallery-01-480.webp",
+      "keys": [
+        "demonstration 8"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "hidden-stories",
+      "t": "Demonstration 09",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "hidden-stories/gallery-02-480.webp",
+      "keys": [
+        "demonstration 9"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "aeroskys-careers",
+      "t": "Demonstration 10",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "aeroskys-careers/gallery-01-480.webp",
+      "keys": [
+        "demonstration 10"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "sagewell",
+      "t": "Demonstration 11",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "sagewell/gallery-01-480.webp",
+      "keys": [
+        "demonstration 11"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "sa": 1
+    },
+    {
+      "s": "vantline",
+      "t": "Demonstration 12",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "vantline/gallery-01-480.webp",
+      "keys": [
+        "demonstration 12"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "sa": 1
+    },
+    {
+      "s": "tidings",
+      "t": "Demonstration 13",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "tidings/gallery-01-480.webp",
+      "keys": [
+        "demonstration 13"
+      ],
+      "n": "Not affiliated with WhatsApp or Meta",
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "sa": 1
+    },
+    {
+      "s": "emberpost",
+      "t": "Demonstration 14",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "emberpost/gallery-01-480.webp",
+      "keys": [
+        "demonstration 14"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "sa": 1
+    },
+    {
+      "s": "ines-morrow",
+      "t": "Demonstration 15",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "ines-morrow/gallery-01-480.webp",
+      "keys": [
+        "demonstration 15"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "maren-holt",
+      "t": "Demonstration 16",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "maren-holt/gallery-01-480.webp",
+      "keys": [
+        "demonstration 16"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "velune",
+      "t": "Demonstration 17",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "velune/gallery-01-480.webp",
+      "keys": [
+        "demonstration 17"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "finsmith",
+      "t": "Demonstration 18",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "finsmith/gallery-01-480.webp",
+      "keys": [
+        "demonstration 18"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "velora",
+      "t": "Demonstration 19",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "velora/gallery-01-480.webp",
+      "keys": [
+        "demonstration 19"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "tavra",
+      "t": "Demonstration 20",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "tavra/gallery-01-480.webp",
+      "keys": [
+        "demonstration 20"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "st": 1
+    },
+    {
+      "s": "one-piece",
+      "t": "Demonstration 21",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "one-piece/gallery-01-480.webp",
+      "keys": [
+        "demonstration 21"
+      ],
+      "n": "Unofficial, not affiliated with the rights holders",
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "saanjh",
+      "t": "Demonstration 22",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "saanjh/gallery-04-480.webp",
+      "keys": [
+        "demonstration 22"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "vyrn",
+      "t": "Demonstration 23",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "vyrn/gallery-03-480.webp",
+      "keys": [
+        "demonstration 23"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "e": 1
+    },
+    {
+      "s": "aaradhya",
+      "t": "Demonstration 24",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "aaradhya/gallery-08-480.webp",
+      "keys": [
+        "demonstration 24"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "vesper",
+      "t": "Demonstration 25",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "vesper/gallery-02-480.webp",
+      "keys": [
+        "demonstration 25"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "st": 1
+    },
+    {
+      "s": "thenga",
+      "t": "Demonstration 26",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "thenga/gallery-01-480.webp",
+      "keys": [
+        "demonstration 26"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "demonstration-portfolio",
+      "t": "Demonstration 27",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "demonstration-portfolio/gallery-01-480.webp",
+      "keys": [
+        "demonstration 27"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "demonstration-desk",
+      "t": "Demonstration 28",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "demonstration-desk/gallery-01-480.webp",
+      "keys": [
+        "demonstration 28"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    },
+    {
+      "s": "sedile",
+      "t": "Demonstration 29",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "sedile/gallery-01-480.webp",
+      "keys": [
+        "demonstration 29"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending.",
+      "st": 1
+    },
+    {
+      "s": "demonstration-cinematic",
+      "t": "Demonstration 30",
+      "i": "Demonstration · Content pending",
+      "k": "concept",
+      "th": "demonstration-cinematic/gallery-01-480.webp",
+      "keys": [
+        "demonstration 30"
+      ],
+      "sum": "Unpublished demonstration. This retained layout is not a Zyberlane client project; approved content is pending."
+    }
+  ],
+  "media": "assets/media/",
+  "labels": {},
+  "counts": {
+    "client": 1,
+    "other": 29
+  },
+  "intents": [
+    {
+      "id": "price.general",
+      "q": "Can I get a quote?",
+      "ph": [
+        "how much is a website",
+        "how much does a website cost",
+        "what do you charge",
+        "pricing",
+        "prices",
+        "rates",
+        "quote please",
+        "how much do you charge",
+        "what is the cost",
+        "website ka price kya hai",
+        "kitna lagega",
+        "entha",
+        "evlo",
+        "starting price",
+        "price range",
+        "what are your fees",
+        "how much"
+      ],
+      "k": [
+        "price"
+      ],
+      "need": [
+        "PRICE"
+      ]
+    },
+    {
+      "id": "price.website",
+      "q": "Can I get a quote for a website?",
+      "ph": [
+        "cost of a 5 page website",
+        "business website price",
+        "landing page cost",
+        "portfolio site price",
+        "how much for a website",
+        "website cost",
+        "price of a website"
+      ],
+      "k": [
+        "price",
+        "website",
+        "landing"
+      ],
+      "need": [
+        "PRICE"
+      ]
+    },
+    {
+      "id": "price.ecommerce",
+      "q": "Can I get a quote for an online store?",
+      "ph": [
+        "ecommerce website price",
+        "online store with 200 products cost",
+        "shopify store price",
+        "dukaan website kitne ka",
+        "how much for an online store",
+        "ecommerce cost"
+      ],
+      "k": [
+        "price",
+        "ecommerce"
+      ],
+      "need": [
+        "PRICE"
+      ]
+    },
+    {
+      "id": "price.product",
+      "q": "Can I get a quote for an app or SaaS product?",
+      "ph": [
+        "how much for an app",
+        "saas dashboard cost",
+        "ai chatbot price",
+        "logo price",
+        "3d experience cost",
+        "branding cost"
+      ],
+      "k": [
+        "price",
+        "app",
+        "saas",
+        "ai",
+        "logo",
+        "3d"
+      ],
+      "need": [
+        "PRICE"
+      ]
+    },
+    {
+      "id": "price.project",
+      "q": "What did one of your projects cost?",
+      "ph": [
+        "how much did derlin haus cost",
+        "price of a site like siara",
+        "what did aivinci pay"
+      ],
+      "k": [
+        "price"
+      ],
+      "need": [
+        "PRICE"
+      ],
+      "ent": "project"
+    },
+    {
+      "id": "price.included",
+      "q": "What's included?",
+      "ph": [
+        "what is included in the price",
+        "what do i get for the starting price",
+        "what does the price include",
+        "what is included"
+      ],
+      "k": [
+        "include",
+        "price"
+      ]
+    },
+    {
+      "id": "price.discount",
+      "q": "Can you do it for less?",
+      "ph": [
+        "discount",
+        "cheaper",
+        "can you do it for less",
+        "best price",
+        "negotiate",
+        "any offers"
+      ],
+      "k": [
+        "discount"
+      ]
+    },
+    {
+      "id": "price.free",
+      "q": "Is it free?",
+      "ph": [
+        "is it free",
+        "free website",
+        "free trial",
+        "do it for free"
+      ],
+      "k": [
+        "free"
+      ]
+    },
+    {
+      "id": "price.budget",
+      "q": "I have a budget in mind",
+      "ph": [
+        "my budget is",
+        "i have a budget",
+        "budget is around",
+        "lakh budget"
+      ],
+      "k": [
+        "budget"
+      ]
+    },
+    {
+      "id": "price.currency",
+      "q": "Do you list prices?",
+      "ph": [
+        "in dollars",
+        "price in pounds",
+        "show euros",
+        "change currency",
+        "other currency",
+        "which currency"
+      ],
+      "k": [
+        "currency"
+      ],
+      "ent": "cur"
+    },
+    {
+      "id": "price.maintenance",
+      "q": "What does support after launch cost?",
+      "ph": [
+        "maintenance charges",
+        "amc",
+        "support cost after launch",
+        "maintenance cost"
+      ],
+      "k": [
+        "maintenance"
+      ]
+    },
+    {
+      "id": "time.timeline",
+      "q": "How long does a project take?",
+      "ph": [
+        "how long does it take",
+        "how many weeks",
+        "turnaround time",
+        "can you finish by next week",
+        "timeline",
+        "how fast can you build",
+        "when will it be ready",
+        "delivery time"
+      ],
+      "k": [
+        "time"
+      ],
+      "need": [
+        "TIME"
+      ],
+      "c": [
+        "process",
+        "quote"
+      ]
+    },
+    {
+      "id": "svc.overview",
+      "q": "What do you create?",
+      "ph": [
+        "what services do you offer",
+        "what can you build",
+        "what do you create",
+        "services",
+        "what do you offer",
+        "your services",
+        "what do you make",
+        "what services do you offer",
+        "what can you build",
+        "what do you make",
+        "your services",
+        "what do you design"
+      ],
+      "k": [
+        "service",
+        "offer",
+        "build",
+        "create"
+      ]
+    },
+    {
+      "id": "svc.seo",
+      "q": "Do you do SEO?",
+      "ph": [
+        "seo",
+        "search engine optimisation",
+        "google ranking",
+        "do you do seo"
+      ],
+      "k": [
+        "seo"
+      ],
+      "b": [
+        {
+          "t": "c",
+          "k": "seo"
+        },
+        {
+          "t": "from",
+          "page": "What We Create",
+          "url": {
+            "r": "what-we-create",
+            "f": "digital-strategy"
+          }
+        }
+      ],
+      "c": [
+        "ask_Zyberlane",
+        "create"
+      ]
+    },
+    {
+      "id": "svc.logo",
+      "q": "Do you design logos?",
+      "ph": [
+        "logo design",
+        "can you make a logo",
+        "do you design logos"
+      ],
+      "k": [
+        "logo"
+      ],
+      "b": [
+        {
+          "t": "c",
+          "k": "logo"
+        },
+        {
+          "t": "from",
+          "page": "What We Create",
+          "url": {
+            "r": "what-we-create",
+            "f": "brand-kits-identity"
+          }
+        }
+      ],
+      "c": [
+        "cost_site",
+        "ask_Zyberlane"
+      ]
+    },
+    {
+      "id": "process.overview",
+      "q": "How does a project work?",
+      "ph": [
+        "how does a project work",
+        "what is your process",
+        "process",
+        "how do you work",
+        "project steps",
+        "what are the stages",
+        "your approach",
+        "how do you start a project",
+        "what is your process",
+        "how do you work",
+        "project steps",
+        "what are the stages",
+        "how does it work"
+      ],
+      "k": [
+        "process",
+        "step",
+        "approach"
+      ],
+      "b": [
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "APPROACH.hero.body.0"
+        },
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "APPROACH.hero.body.1"
+        },
+        {
+          "t": "stepper"
+        },
+        {
+          "t": "from",
+          "page": "Our Approach",
+          "url": {
+            "r": "our-approach",
+            "f": ""
+          }
+        }
+      ],
+      "c": [
+        "involved",
+        "after_launch",
+        "how_long"
+      ]
+    },
+    {
+      "id": "work.overview",
+      "q": "Can I see your work?",
+      "ph": [
+        "show me your work",
+        "portfolio",
+        "examples",
+        "your projects",
+        "see your work",
+        "see your portfolio",
+        "previous work",
+        "what have you built",
+        "case studies"
+      ],
+      "k": [
+        "work",
+        "portfolio"
+      ],
+      "not": [
+        "PRICE"
+      ]
+    },
+    {
+      "id": "work.filter.client",
+      "q": "Show me your client work",
+      "ph": [
+        "client work",
+        "client projects",
+        "real clients",
+        "show client websites"
+      ],
+      "k": [
+        "client"
+      ]
+    },
+    {
+      "id": "work.filter.ecommerce",
+      "q": "Show me your online stores",
+      "ph": [
+        "ecommerce projects",
+        "online stores you built",
+        "ecommerce examples",
+        "stores you made"
+      ],
+      "k": [
+        "ecommerce",
+        "work"
+      ],
+      "not": [
+        "PRICE"
+      ]
+    },
+    {
+      "id": "work.filter.saas",
+      "q": "Show me your SaaS concepts",
+      "ph": [
+        "saas concepts",
+        "saas projects",
+        "saas examples",
+        "dashboards you designed"
+      ],
+      "k": [
+        "saas",
+        "work"
+      ],
+      "not": [
+        "PRICE"
+      ]
+    },
+    {
+      "id": "work.filter.concept",
+      "q": "Show me your concept projects",
+      "ph": [
+        "concept projects",
+        "concepts",
+        "your concepts",
+        "fan projects"
+      ],
+      "k": [
+        "concept"
+      ]
+    },
+    {
+      "id": "work.filter.personal",
+      "q": "Show me Zyberlane's personal projects",
+      "ph": [
+        "personal projects",
+        "Zyberlane personal sites",
+        "your own portfolio sites"
+      ],
+      "k": [
+        "personal"
+      ]
+    },
+    {
+      "id": "work.industry",
+      "q": "Have you built a site like mine?",
+      "ph": [
+        "have you built a jewellery site",
+        "any travel websites",
+        "restaurant website",
+        "have you worked with",
+        "do you have experience with"
+      ],
+      "k": [
+        "built",
+        "experience"
+      ],
+      "ent": "industry"
+    },
+    {
+      "id": "about.founder",
+      "q": "Who is Zyberlane?",
+      "ph": [
+        "who is Zyberlane",
+        "who runs the studio",
+        "founder",
+        "who is behind zyberlane",
+        "who owns the company",
+        "tell me about Zyberlane",
+        "who will work on my project",
+        "who will design my website",
+        "your experience",
+        "how experienced are you"
+      ],
+      "k": [
+        "Zyberlane",
+        "founder",
+        "who"
+      ],
+      "c": [
+        "story",
+        "why",
+        "talk"
+      ]
+    },
+    {
+      "id": "about.why",
+      "q": "Why does ZYBERLANE exist?",
+      "ph": [
+        "why does zyberlane exist",
+        "why did you start",
+        "why zyberlane exists",
+        "story behind the studio"
+      ],
+      "k": [
+        "why",
+        "start",
+        "exist"
+      ],
+      "b": [
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.why.title"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Project scope agreed before execution",
+            "Human review and testing",
+            "Contact contact@zyberlane.com"
+          ],
+          "src": "WHO.why.replaced"
+        },
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.why.body"
+        },
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.why.quote"
+        },
+        {
+          "t": "from",
+          "page": "Who We Are",
+          "url": {
+            "r": "who-we-are",
+            "f": "why"
+          }
+        }
+      ],
+      "c": [
+        "founder",
+        "work"
+      ]
+    },
+    {
+      "id": "about.philosophy",
+      "q": "What is your philosophy?",
+      "ph": [
+        "philosophy",
+        "what do you believe",
+        "your values",
+        "how do you think about design"
+      ],
+      "k": [
+        "philosophy",
+        "believe",
+        "value"
+      ],
+      "b": [
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.philosophy.title"
+        },
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.philosophy.body"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Project scope agreed before execution",
+            "Human review and testing",
+            "Contact contact@zyberlane.com"
+          ],
+          "src": "WHO.philosophy.steps"
+        },
+        {
+          "t": "from",
+          "page": "Who We Are",
+          "url": {
+            "r": "who-we-are",
+            "f": "philosophy"
+          }
+        }
+      ],
+      "c": [
+        "process",
+        "work"
+      ]
+    },
+    {
+      "id": "about.think",
+      "q": "How do you think about design?",
+      "ph": [
+        "how you think",
+        "design principles",
+        "people first",
+        "details matter"
+      ],
+      "k": [
+        "principle",
+        "detail",
+        "people"
+      ],
+      "b": [
+        {
+          "t": "list",
+          "items": [
+            "Project scope agreed before execution",
+            "Human review and testing",
+            "Contact contact@zyberlane.com"
+          ],
+          "src": "WHO.think.items.*.0"
+        },
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.think.items.0.2"
+        },
+        {
+          "t": "from",
+          "page": "Who We Are",
+          "url": {
+            "r": "who-we-are",
+            "f": "how-we-think"
+          }
+        }
+      ],
+      "c": [
+        "process",
+        "work"
+      ]
+    },
+    {
+      "id": "about.promise",
+      "q": "What do you promise?",
+      "ph": [
+        "your promise",
+        "what do you promise",
+        "can i trust you"
+      ],
+      "k": [
+        "promise",
+        "trust"
+      ],
+      "b": [
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.promise.title"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Project scope agreed before execution",
+            "Human review and testing",
+            "Contact contact@zyberlane.com"
+          ],
+          "src": "WHO.promise.lines"
+        },
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.promise.question"
+        },
+        {
+          "t": "from",
+          "page": "Who We Are",
+          "url": {
+            "r": "who-we-are",
+            "f": "promise"
+          }
+        }
+      ]
+    },
+    {
+      "id": "about.different",
+      "q": "Why should I choose you?",
+      "ph": [
+        "why should i choose you",
+        "what makes you different",
+        "why you",
+        "why hire you",
+        "how are you different from other agencies"
+      ],
+      "k": [
+        "different",
+        "choose",
+        "why"
+      ],
+      "b": [
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "BRAND.idea"
+        },
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.promise.title"
+        },
+        {
+          "t": "from",
+          "page": "Who We Are",
+          "url": {
+            "r": "who-we-are",
+            "f": "promise"
+          }
+        }
+      ],
+      "c": [
+        "work",
+        "process",
+        "prices"
+      ]
+    },
+    {
+      "id": "about.team",
+      "q": "How big is your team?",
+      "ph": [
+        "how big is your team",
+        "how many people",
+        "team size",
+        "are you a big agency",
+        "is it one person"
+      ],
+      "k": [
+        "team",
+        "big",
+        "people"
+      ],
+      "b": [
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.hero.title"
+        },
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.hero.body.0"
+        },
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.hero.body.1"
+        },
+        {
+          "t": "from",
+          "page": "Who We Are",
+          "url": {
+            "r": "who-we-are",
+            "f": ""
+          }
+        }
+      ],
+      "c": [
+        "founder",
+        "work"
+      ]
+    },
+    {
+      "id": "about.audience",
+      "q": "Who do you work with?",
+      "ph": [
+        "who do you work with",
+        "do you work with startups",
+        "do you work with small businesses",
+        "what kind of clients",
+        "is it only for big companies"
+      ],
+      "k": [
+        "startup",
+        "business",
+        "small",
+        "company",
+        "kind"
+      ],
+      "b": [
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "WHO.hero.body.1"
+        },
+        {
+          "t": "faq",
+          "i": 1
+        }
+      ],
+      "c": [
+        "work",
+        "prices"
+      ]
+    },
+    {
+      "id": "about.reviews",
+      "q": "What do clients say?",
+      "ph": [
+        "what do clients say",
+        "testimonials",
+        "reviews",
+        "feedback from clients",
+        "client experience"
+      ],
+      "k": [
+        "review",
+        "testimonial",
+        "say"
+      ],
+      "b": [
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "STORIES.experience.title"
+        },
+        {
+          "t": "p",
+          "text": "Zyberlane scopes work around your requirements. Please contact contact@zyberlane.com. Demonstration content is awaiting approval.",
+          "src": "STORIES.experience.body"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Project scope agreed before execution",
+            "Human review and testing",
+            "Contact contact@zyberlane.com"
+          ],
+          "src": "STORIES.experience.lines"
+        },
+        {
+          "t": "from",
+          "page": "Client Stories",
+          "url": {
+            "r": "client-stories",
+            "f": "experience"
+          }
+        }
+      ],
+      "c": [
+        "work",
+        "involved"
+      ]
+    },
+    {
+      "id": "about.clients_count",
+      "q": "How many clients have you worked with?",
+      "ph": [
+        "how many clients",
+        "number of clients",
+        "how many clients have you worked with",
+        "how many projects have you done",
+        "how many websites have you built"
+      ],
+      "k": [
+        "how_many",
+        "client"
+      ]
+    },
+    {
+      "id": "contact.how",
+      "q": "How can I contact you?",
+      "ph": [
+        "how can i contact you",
+        "contact",
+        "get in touch",
+        "reach you",
+        "contact details",
+        "how do i reach Zyberlane"
+      ],
+      "k": [
+        "contact",
+        "reach",
+        "touch"
+      ],
+      "c": [
+        "book",
+        "show_email"
+      ]
+    },
+    {
+      "id": "contact.phone",
+      "q": "Can I call you?",
+      "ph": [
+        "phone number",
+        "can i call you",
+        "whatsapp number",
+        "mobile number",
+        "contact number"
+      ],
+      "k": [
+        "phone"
+      ],
+      "c": [
+        "book",
+        "show_email"
+      ]
+    },
+    {
+      "id": "contact.socials",
+      "q": "Are you on Instagram or LinkedIn?",
+      "ph": [
+        "instagram",
+        "linkedin",
+        "github",
+        "social media",
+        "socials"
+      ],
+      "k": [
+        "instagram",
+        "linkedin",
+        "github",
+        "social"
+      ]
+    },
+    {
+      "id": "contact.email",
+      "q": "What is your email?",
+      "ph": [
+        "email",
+        "email address",
+        "what is your email",
+        "mail id"
+      ],
+      "k": [
+        "email"
+      ]
+    },
+    {
+      "id": "contact.book",
+      "q": "Book a call",
+      "ph": [
+        "book a call",
+        "schedule a meeting",
+        "can we talk",
+        "i want to talk to someone",
+        "set up a call",
+        "speak to Zyberlane"
+      ],
+      "k": [
+        "call",
+        "book",
+        "talk"
+      ]
+    },
+    {
+      "id": "contact.start",
+      "q": "I want to start a project",
+      "ph": [
+        "i want to start",
+        "lets do it",
+        "hire you",
+        "start a project",
+        "i am ready",
+        "work with you",
+        "i want a website"
+      ],
+      "k": [
+        "start",
+        "hire",
+        "ready"
+      ]
+    },
+    {
+      "id": "nodata.hosting",
+      "q": "Do you provide hosting?",
+      "ph": [
+        "hosting",
+        "do you host",
+        "server",
+        "hosting cost"
+      ],
+      "k": [
+        "hosting"
+      ]
+    },
+    {
+      "id": "nodata.domain",
+      "q": "Do you register domains?",
+      "ph": [
+        "domain",
+        "domain name",
+        "buy a domain"
+      ],
+      "k": [
+        "domain"
+      ]
+    },
+    {
+      "id": "nodata.payment",
+      "q": "What are your payment terms?",
+      "ph": [
+        "payment terms",
+        "advance payment",
+        "emi",
+        "installments",
+        "how do i pay",
+        "payment methods"
+      ],
+      "k": [
+        "installment",
+        "payment"
+      ]
+    },
+    {
+      "id": "nodata.gst",
+      "q": "Do you charge GST?",
+      "ph": [
+        "gst",
+        "invoice",
+        "tax invoice",
+        "billing"
+      ],
+      "k": [
+        "gst"
+      ]
+    },
+    {
+      "id": "nodata.refund",
+      "q": "Do you offer refunds?",
+      "ph": [
+        "refund",
+        "money back",
+        "refund policy"
+      ],
+      "k": [
+        "refund"
+      ]
+    },
+    {
+      "id": "nodata.stack",
+      "q": "Which technology do you use?",
+      "ph": [
+        "tech stack",
+        "wordpress",
+        "react",
+        "do you use shopify",
+        "which technology",
+        "what framework",
+        "webflow"
+      ],
+      "k": [
+        "stack",
+        "technology",
+        "framework"
+      ]
+    },
+    {
+      "id": "nodata.jobs",
+      "q": "Are you hiring?",
+      "ph": [
+        "jobs",
+        "are you hiring",
+        "careers",
+        "internship",
+        "vacancy"
+      ],
+      "k": [
+        "jobs",
+        "careers"
+      ]
+    },
+    {
+      "id": "nodata.address",
+      "q": "Where is your office?",
+      "ph": [
+        "office address",
+        "where is your office",
+        "can i visit",
+        "address"
+      ],
+      "k": [
+        "address"
+      ]
+    },
+    {
+      "id": "nodata.fullname",
+      "q": "What is Zyberlane's full name?",
+      "ph": [
+        "full name",
+        "surname",
+        "last name"
+      ],
+      "k": [
+        "surname",
+        "full"
+      ]
+    },
+    {
+      "id": "meta.hi",
+      "q": "Hello",
+      "ph": [
+        "hi",
+        "hello",
+        "good morning",
+        "good evening",
+        "namaste"
+      ],
+      "k": [
+        "hi"
+      ]
+    },
+    {
+      "id": "meta.thanks",
+      "q": "Thanks",
+      "ph": [
+        "thanks",
+        "thank you",
+        "great thanks",
+        "that helps",
+        "perfect"
+      ],
+      "k": [
+        "thanks"
+      ]
+    },
+    {
+      "id": "meta.bye",
+      "q": "Bye",
+      "ph": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "that is all"
+      ],
+      "k": [
+        "bye"
+      ]
+    },
+    {
+      "id": "meta.bot",
+      "q": "Are you a bot?",
+      "ph": [
+        "are you a bot",
+        "are you human",
+        "are you real",
+        "is this ai",
+        "who am i talking to",
+        "are you Zyberlane",
+        "are you a real person",
+        "am i talking to a human"
+      ],
+      "k": [
+        "bot",
+        "human",
+        "real"
+      ]
+    },
+    {
+      "id": "meta.chat_privacy",
+      "q": "Is this chat private?",
+      "ph": [
+        "is this chat private",
+        "do you store my data",
+        "privacy",
+        "is my data safe",
+        "are you recording this"
+      ],
+      "k": [
+        "privacy",
+        "private",
+        "data"
+      ]
+    },
+    {
+      "id": "meta.personal",
+      "q": "My contact details",
+      "ph": [
+        "my email is",
+        "my number is",
+        "call me on"
+      ],
+      "k": [
+        "email",
+        "phone"
+      ]
+    },
+    {
+      "id": "meta.restart",
+      "q": "Start over",
+      "ph": [
+        "start over",
+        "restart",
+        "reset the chat",
+        "clear chat"
+      ],
+      "k": [
+        "restart",
+        "reset"
+      ]
+    },
+    {
+      "id": "meta.help",
+      "q": "What can you do?",
+      "ph": [
+        "help",
+        "what can you do",
+        "what can i ask",
+        "menu",
+        "options"
+      ],
+      "k": [
+        "help"
+      ]
+    },
+    {
+      "id": "meta.off_topic",
+      "q": "Something else",
+      "ph": [
+        "ignore your rules",
+        "weather",
+        "tell me a joke",
+        "who won the match",
+        "write me a poem",
+        "reply in capitals"
+      ],
+      "k": [
+        "joke",
+        "weather",
+        "poem"
+      ]
+    },
+    {
+      "id": "faq.0",
+      "ph": [
+        "what do you do",
+        "what is zyberlane",
+        "what kind of studio are you",
+        "tell me about the studio",
+        "what does your company do"
+      ],
+      "k": [
+        "studio",
+        "zyberlane"
+      ],
+      "b": [
+        {
+          "t": "faq",
+          "i": 0
+        }
+      ],
+      "c": [
+        "create",
+        "work",
+        "founder"
+      ]
+    },
+    {
+      "id": "faq.1",
+      "ph": [
+        "where are you based",
+        "where are you located",
+        "do you work outside india",
+        "do you work remotely",
+        "can you work with clients abroad",
+        "which country are you in",
+        "do you work internationally",
+        "do you work with international clients"
+      ],
+      "k": [
+        "where",
+        "based",
+        "outside",
+        "abroad",
+        "internationally",
+        "overseas",
+        "remotely"
+      ],
+      "b": [
+        {
+          "t": "faq",
+          "i": 1
+        }
+      ],
+      "c": [
+        "prices",
+        "book"
+      ]
+    },
+    {
+      "id": "faq.2",
+      "ph": [
+        "do i need a brief",
+        "i do not know what i need",
+        "do i need a plan before",
+        "i only have an idea",
+        "do i need technical knowledge"
+      ],
+      "k": [
+        "brief"
+      ],
+      "b": [
+        {
+          "t": "faq",
+          "i": 2
+        },
+        {
+          "t": "list",
+          "items": [
+            "Project scope agreed before execution",
+            "Human review and testing",
+            "Contact contact@zyberlane.com"
+          ],
+          "src": "CONTACT.before.lines"
+        }
+      ],
+      "c": [
+        "book",
+        "prices"
+      ]
+    },
+    {
+      "id": "faq.3",
+      "ph": [
+        "fixed price",
+        "packages",
+        "price list",
+        "do you have plans",
+        "standard package",
+        "pricing plans"
+      ],
+      "k": [
+        "package",
+        "fixed"
+      ],
+      "b": [
+        {
+          "t": "faq",
+          "i": 3
+        }
+      ],
+      "c": [
+        "prices",
+        "book"
+      ]
+    },
+    {
+      "id": "faq.5",
+      "ph": [
+        "do you build online stores",
+        "can you make an online shop",
+        "do you do ecommerce",
+        "shopping website",
+        "can you build a store"
+      ],
+      "k": [
+        "ecommerce",
+        "build"
+      ],
+      "b": [
+        {
+          "t": "faq",
+          "i": 5
+        }
+      ],
+      "c": [
+        "cost_store",
+        "work"
+      ]
+    },
+    {
+      "id": "faq.6",
+      "ph": [
+        "do you design saas",
+        "can you design a dashboard",
+        "do you build landing pages",
+        "saas product design",
+        "web app design"
+      ],
+      "k": [
+        "saas",
+        "landing"
+      ],
+      "b": [
+        {
+          "t": "faq",
+          "i": 6
+        }
+      ],
+      "c": [
+        "cost_site",
+        "work"
+      ]
+    },
+    {
+      "id": "faq.7",
+      "ph": [
+        "template",
+        "theme",
+        "wix",
+        "will it look generic",
+        "do you use templates",
+        "is it a custom design"
+      ],
+      "k": [
+        "template",
+        "generic"
+      ],
+      "b": [
+        {
+          "t": "faq",
+          "i": 7
+        }
+      ],
+      "c": [
+        "work",
+        "process"
+      ]
+    },
+    {
+      "id": "faq.9",
+      "ph": [
+        "after launch",
+        "do you offer support",
+        "can you update it later",
+        "ongoing support",
+        "will you maintain it",
+        "after the website goes live"
+      ],
+      "k": [
+        "after",
+        "launch",
+        "support"
+      ],
+      "b": [
+        {
+          "t": "faq",
+          "i": 9
+        }
+      ],
+      "c": [
+        "ask_Zyberlane",
+        "process"
+      ]
+    },
+    {
+      "id": "faq.10",
+      "ph": [
+        "how involved",
+        "will you update me",
+        "communication",
+        "will i see progress",
+        "can i give feedback",
+        "will i be involved"
+      ],
+      "k": [
+        "involved",
+        "communication",
+        "feedback"
+      ],
+      "b": [
+        {
+          "t": "faq",
+          "i": 10
+        },
+        {
+          "t": "list",
+          "items": [
+            "Project scope agreed before execution",
+            "Human review and testing",
+            "Contact contact@zyberlane.com"
+          ],
+          "src": "STORIES.experience.lines"
+        }
+      ],
+      "c": [
+        "process",
+        "work"
+      ]
+    },
+    {
+      "id": "faq.11",
+      "ph": [
+        "what does the name mean",
+        "why the name zyberlane",
+        "what is a zyberlane",
+        "meaning of the name",
+        "why zyberlane"
+      ],
+      "k": [
+        "name",
+        "mean"
+      ],
+      "b": [
+        {
+          "t": "faq",
+          "i": 11
+        }
+      ],
+      "c": [
+        "founder",
+        "create"
+      ]
+    },
+    {
+      "id": "svc.website-design",
+      "ph": [
+        "web design",
+        "ui ux",
+        "ux design",
+        "ui design",
+        "redesign",
+        "do you do redesigns",
+        "website design"
+      ],
+      "k": [
+        "design"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "website-design"
+        }
+      ],
+      "c": [
+        "cost_site",
+        "work"
+      ]
+    },
+    {
+      "id": "svc.website-development",
+      "ph": [
+        "development",
+        "web development",
+        "coding",
+        "cms website",
+        "responsive website",
+        "develop a website"
+      ],
+      "k": [
+        "development"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "website-development"
+        }
+      ],
+      "c": [
+        "cost_site",
+        "work"
+      ]
+    },
+    {
+      "id": "svc.e-commerce",
+      "ph": [
+        "ecommerce",
+        "online store",
+        "what is included in ecommerce",
+        "ecommerce services"
+      ],
+      "k": [
+        "ecommerce"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "e-commerce"
+        }
+      ],
+      "c": [
+        "cost_store",
+        "work"
+      ]
+    },
+    {
+      "id": "svc.interactive-3d",
+      "ph": [
+        "3d",
+        "animation",
+        "motion design",
+        "interactive website",
+        "scroll animations",
+        "3d website"
+      ],
+      "k": [
+        "interactive",
+        "3d"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "interactive-3d"
+        }
+      ],
+      "c": [
+        "prices",
+        "work"
+      ]
+    },
+    {
+      "id": "svc.brand-kits-identity",
+      "ph": [
+        "branding",
+        "branding services",
+        "brand identity",
+        "brand guidelines",
+        "visual identity",
+        "brand kit",
+        "what is a brand kit",
+        "logo files"
+      ],
+      "k": [
+        "brand",
+        "kits",
+        "identity"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "brand-kits-identity"
+        }
+      ],
+      "c": [
+        "prices",
+        "work"
+      ]
+    },
+    {
+      "id": "svc.apps-saas",
+      "ph": [
+        "saas",
+        "apps",
+        "app development",
+        "dashboard",
+        "app design",
+        "product design",
+        "web app",
+        "do you make apps",
+        "do you build apps",
+        "mobile app"
+      ],
+      "k": [
+        "apps",
+        "saas"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "apps-saas"
+        }
+      ],
+      "c": [
+        "prices",
+        "work"
+      ]
+    },
+    {
+      "id": "svc.ai-automation",
+      "ph": [
+        "ai",
+        "automation",
+        "ai tools",
+        "workflow automation",
+        "internal tools"
+      ],
+      "k": [
+        "ai",
+        "automation"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "ai-automation"
+        }
+      ],
+      "c": [
+        "prices",
+        "work"
+      ]
+    },
+    {
+      "id": "svc.digital-strategy",
+      "ph": [
+        "strategy",
+        "digital strategy",
+        "competitor analysis",
+        "user research"
+      ],
+      "k": [
+        "strategy"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "digital-strategy"
+        }
+      ],
+      "c": [
+        "prices",
+        "work"
+      ]
+    },
+    {
+      "id": "process.step.1",
+      "ph": [
+        "understand stage"
+      ],
+      "k": [
+        "understand",
+        "step"
+      ],
+      "b": [
+        {
+          "t": "step",
+          "i": 0
+        }
+      ],
+      "c": [
+        "process"
+      ]
+    },
+    {
+      "id": "process.step.2",
+      "ph": [
+        "define stage"
+      ],
+      "k": [
+        "define",
+        "step"
+      ],
+      "b": [
+        {
+          "t": "step",
+          "i": 1
+        }
+      ],
+      "c": [
+        "process"
+      ]
+    },
+    {
+      "id": "process.step.3",
+      "ph": [
+        "explore stage"
+      ],
+      "k": [
+        "explore",
+        "step"
+      ],
+      "b": [
+        {
+          "t": "step",
+          "i": 2
+        }
+      ],
+      "c": [
+        "process"
+      ]
+    },
+    {
+      "id": "process.step.4",
+      "ph": [
+        "design stage"
+      ],
+      "k": [
+        "design",
+        "step"
+      ],
+      "b": [
+        {
+          "t": "step",
+          "i": 3
+        }
+      ],
+      "c": [
+        "process"
+      ]
+    },
+    {
+      "id": "process.step.5",
+      "ph": [
+        "refine stage"
+      ],
+      "k": [
+        "refine",
+        "step"
+      ],
+      "b": [
+        {
+          "t": "step",
+          "i": 4
+        }
+      ],
+      "c": [
+        "process"
+      ]
+    },
+    {
+      "id": "process.step.6",
+      "ph": [
+        "build stage"
+      ],
+      "k": [
+        "build",
+        "step"
+      ],
+      "b": [
+        {
+          "t": "step",
+          "i": 5
+        }
+      ],
+      "c": [
+        "process"
+      ]
+    },
+    {
+      "id": "process.step.7",
+      "ph": [
+        "test stage",
+        "do you test",
+        "do you test the website",
+        "testing"
+      ],
+      "k": [
+        "test",
+        "step"
+      ],
+      "b": [
+        {
+          "t": "step",
+          "i": 6
+        }
+      ],
+      "c": [
+        "process"
+      ]
+    },
+    {
+      "id": "process.step.8",
+      "ph": [
+        "launch stage"
+      ],
+      "k": [
+        "launch",
+        "step"
+      ],
+      "b": [
+        {
+          "t": "step",
+          "i": 7
+        }
+      ],
+      "c": [
+        "process"
+      ]
+    },
+    {
+      "id": "process.step.9",
+      "ph": [
+        "evolve stage",
+        "after launch evolve",
+        "evolve stage"
+      ],
+      "k": [
+        "evolve",
+        "step"
+      ],
+      "b": [
+        {
+          "t": "step",
+          "i": 8
+        }
+      ],
+      "c": [
+        "process"
+      ]
+    }
+  ],
+  "chips": {
+    "prices": "price.general",
+    "create": "svc.overview",
+    "process": "process.overview",
+    "work": "work.overview",
+    "founder": "about.founder",
+    "book": "contact.book",
+    "like": "@like",
+    "ask_Zyberlane": "@ask",
+    "something_else": "@else",
+    "that_helps": "meta.thanks",
+    "pass": "@ask",
+    "show_email": "contact.email",
+    "keep": "@keep",
+    "back_start": "meta.help",
+    "back_brief": "@brief",
+    "send_brief": "@send",
+    "ask_else": "@else",
+    "quote": "contact.start",
+    "other_prices": "price.general",
+    "more_work": "work.overview",
+    "see_project": "@see",
+    "cost_site": "price.website",
+    "cost_store": "price.ecommerce",
+    "story": {
+      "r": "who-we-are",
+      "f": "founder"
+    },
+    "why": "about.why",
+    "talk": "@ask",
+    "involved": "faq.10",
+    "after_launch": "faq.9",
+    "how_long": "time.timeline",
+    "see_create": {
+      "r": "what-we-create",
+      "f": ""
+    },
+    "change_cur": "@cur",
+    "open_form": "@form",
+    "open_form_short": "@form",
+    "copy_brief": "@copy",
+    "email_instead": "@mail",
+    "pick_time": "@booking",
+    "by_form": "@form",
+    "done": "@done",
+    "stories_link": {
+      "r": "client-stories",
+      "f": "experience"
+    },
+    "view": "@see"
+  },
+  "lex": {
+    "alias": {
+      "divine tattoo": "aivinci"
+    },
+    "industry": {
+      "jewellery": [],
+      "travel": [
+        "aeroskys",
+        "vynk"
+      ],
+      "saree": [
+        "siaara",
+        "aaradhya"
+      ],
+      "fashion": [
+        "vyrn"
+      ],
+      "menswear": [
+        "derlin-haus"
+      ],
+      "womenswear": [
+        "mahira-select"
+      ],
+      "fragrance": [
+        "velora"
+      ],
+      "beverage": [
+        "saanjh",
+        "thenga"
+      ],
+      "furniture": [
+        "sedile"
+      ],
+      "chair": [
+        "sedile"
+      ],
+      "lighting": [
+        "vesper"
+      ],
+      "homes": [
+        "hidden-stories"
+      ],
+      "stay": [
+        "hidden-stories"
+      ],
+      "marketing agency": [
+        "san-media"
+      ],
+      "esim": [
+        "vynk"
+      ],
+      "resume": [
+        "livecv"
+      ],
+      "careers": [
+        "livecv",
+        "aeroskys-careers"
+      ],
+      "email": [
+        "emberpost"
+      ],
+      "editor": [
+        "ines-morrow",
+        "maren-holt"
+      ],
+      "film": [
+        "ines-morrow"
+      ],
+      "portfolio": [
+        "ines-morrow",
+        "demonstration-portfolio",
+        "demonstration-desk",
+        "demonstration-cinematic"
+      ],
+      "restaurant": [],
+      "hotel": [
+        "aeroskys",
+        "hidden-stories"
+      ],
+      "school": [],
+      "clinic": [],
+      "gym": [],
+      "salon": [],
+      "real estate": []
+    }
+  },
+  "th": {
+    "answer": 0.55,
+    "maybe": 0.35,
+    "margin": 0.08,
+    "search": 2.0
+  }
+}
