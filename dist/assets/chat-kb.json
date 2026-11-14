@@ -313,7 +313,7 @@
       "n": "07",
       "name": "XR & Immersive Experiences",
       "title": "XR & Immersive Experiences",
-      "body": "Research showcase, not a client service. Zyberlane XR is an experimental browser player for 180°/360° video and virtual cinema. Galaxy scenes and games remain planned.",
+      "body": "Research showcase, not a client service. The Zyberlane XR project page at /projects/zyberlane-xr/ describes experimental 180°/360° viewing, virtual cinema, optional sensor controls and planned worlds and games.",
       "tags": [
         "Experimental prototype",
         "Not a client service",
@@ -501,7 +501,7 @@
       "We could tell you we're different.",
       "But we'd rather show you."
     ],
-    "body": "Divine Tattoo is the confirmed client project. Zyberlane XR is an experimental original product, Creative Lab is planned, and 29 retained layouts are demonstrations, not client work.",
+    "body": "Divine Tattoo is the confirmed client project. Zyberlane XR is an experimental original product with a detail page at /projects/zyberlane-xr/. Creative Lab is planned, and the 29 other retained project layouts are demonstrations rather than client work.",
     "src": "WORK.hero"
   },
   "projects": [
@@ -2867,6 +2867,6 @@
     "answer": 0.55,
     "maybe": 0.35,
     "margin": 0.08,
-    "search": 2.0
+    "search": 2
   }
 }
