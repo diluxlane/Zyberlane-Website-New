@@ -1,4 +1,8 @@
 # Zyberlane
 Private development preview; not for indexing.
+Official descriptor: Creative Technology Company.
+Tagline: Built Beyond Boundaries.
 Contact: contact@zyberlane.com
-Demonstration content is not client work.
+Zyberlane XR: experimental immersive browser video project — /projects/zyberlane-xr/
+Creative Lab: planned creative-coding research; not a released project.
+Portfolio: Divine Tattoo is the confirmed client project. The 29 retained demonstration layouts are not client work.
