@@ -14,7 +14,7 @@ Open http://localhost:8080. Fetch-based chat loading requires HTTP rather than o
 
 ## Preview configuration
 
-Vercel output directory: `dist`. Automatic Git-triggered Vercel deployments are disabled in vercel.json. Preview indexing is disabled using page metadata, robots.txt and X-Robots-Tag. Noindex does not provide access protection. A hosted preview requires separate owner authorization; production release remains manual. Do not connect this branch to existing Netlify production or change DNS.
+Vercel output directory: `dist`. Git-triggered Vercel deployments are enabled in vercel.json; verify the connected Vercel project and domain before a production release. Preview indexing is disabled using page metadata, robots.txt and X-Robots-Tag. Noindex does not provide access protection. A hosted preview requires separate owner authorization; production release remains manual. Do not connect this branch to existing Netlify production or change DNS.
 
 ## Review scope
 
