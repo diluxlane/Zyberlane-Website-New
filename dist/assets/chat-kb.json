@@ -4,7 +4,7 @@
   "brand": {
     "name": "Zyberlane",
     "full": "Zyberlane",
-    "tagline": "Creating Beyond Boundaries."
+    "tagline": "Built Beyond Boundaries."
   },
   "nav": {
     "": "Home",
@@ -311,16 +311,16 @@
     {
       "id": "ai-automation",
       "n": "07",
-      "name": "Demonstration slot 07",
-      "title": "Demonstration slot 07",
-      "body": "Unpublished demonstration component. No additional Zyberlane service is advertised.",
+      "name": "XR & Immersive Experiences",
+      "title": "XR & Immersive Experiences",
+      "body": "Research showcase, not a client service. Zyberlane XR is an experimental browser player for 180°/360° video and virtual cinema. Galaxy scenes and games remain planned.",
       "tags": [
-        "Demonstration only",
-        "Not a service offer",
-        "Content pending",
-        "Review required",
-        "Scope unpublished",
-        "Approval pending"
+        "Experimental prototype",
+        "Not a client service",
+        "XR software development",
+        "180°/360° playback",
+        "Virtual cinema",
+        "Galaxy scene planned"
       ],
       "src": "CREATE.services.6",
       "price": null
@@ -328,16 +328,16 @@
     {
       "id": "digital-strategy",
       "n": "08",
-      "name": "Demonstration slot 08",
-      "title": "Demonstration slot 08",
-      "body": "Unpublished demonstration component. No additional Zyberlane service is advertised.",
+      "name": "Creative Coding & Interactive Art",
+      "title": "Creative Coding & Interactive Art",
+      "body": "Creative technology research, not a client service. Fluid simulations, particles, audio visuals and hand-tracking experiments are planned for Creative Lab; no published Lab demos yet.",
       "tags": [
-        "Demonstration only",
-        "Not a service offer",
-        "Content pending",
-        "Review required",
-        "Scope unpublished",
-        "Approval pending"
+        "Creative R&D",
+        "Not a client service",
+        "Lab in planning",
+        "Fluid simulations",
+        "Gesture research",
+        "Interactive visuals"
       ],
       "src": "CREATE.services.7",
       "price": null
@@ -501,7 +501,7 @@
       "We could tell you we're different.",
       "But we'd rather show you."
     ],
-    "body": "Divine Tattoo is the confirmed client project. All other retained project layouts are demonstrations awaiting approved content.",
+    "body": "Divine Tattoo is the confirmed client project. Zyberlane XR is an experimental original product, Creative Lab is planned, and 29 retained layouts are demonstrations, not client work.",
     "src": "WORK.hero"
   },
   "projects": [
