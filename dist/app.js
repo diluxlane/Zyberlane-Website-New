@@ -4521,9 +4521,9 @@ function t(t,i,e){return Math.max(t,Math.min(i,e))}var i=class{isRunning=!1;valu
       const want = norm(new URLSearchParams(location.search).get('service'));
       if (want) {
         const sel = form.querySelector('#ct-build');
-        const opt = sel && [...sel.options].find(o => o.value && norm(o.value) === want);
+        const opt = sel && [...sel.options].find(o => o.value && (norm(o.value) === want || norm(o.dataset.alias) === want));
         if (opt) { sel.value = opt.value; sel.dispatchEvent(new Event('change')); }
-        const chip = [...form.querySelectorAll('input[name="help"]')].find(c => norm(c.value) === want);
+        const chip = [...form.querySelectorAll('input[name="help"]')].find(c => norm(c.value) === want || norm(c.dataset.alias) === want);
         if (chip) chip.checked = true;
       }
     } catch (e) { /* ignore malformed URLs */ }
@@ -4647,9 +4647,9 @@ function t(t,i,e){return Math.max(t,Math.min(i,e))}var i=class{isRunning=!1;valu
       filled = [];
       const set = (el, v, ev) => { el.value = v; el.dispatchEvent(new Event(ev)); filled.push(el); };
       const sel = form.querySelector('#ct-build'), idea = form.querySelector('#ct-idea');
-      if (sel && !sel.value && [...sel.options].some(o => o.value && o.value === d.build)) set(sel, d.build, 'change');
+      if (sel && !sel.value) { const opt = [...sel.options].find(o => o.value && (o.value === d.build || o.dataset.alias === d.build)); if (opt) set(sel, opt.value, 'change'); }
       (d.help || []).forEach(v => {
-        const c = [...form.querySelectorAll('input[name="help"]')].find(x => x.value === v);
+        const c = [...form.querySelectorAll('input[name="help"]')].find(x => x.value === v || x.dataset.alias === v);
         if (c && !c.checked) { c.checked = true; filled.push(c); }
       });
       if (budget && !budget.value.trim() && d.budget) set(budget, String(d.budget).slice(0, 120), 'input');
