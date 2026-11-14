@@ -28,7 +28,7 @@
       },
       {
         "label": "WhatsApp",
-        "url": "/contact/index.html"
+        "url": "https://wa.me/94711524659"
       }
     ],
     "booking_url": ""
@@ -188,7 +188,7 @@
     },
     {
       "q": "Who coordinates the work?",
-      "a": "Founder Zyberlane coordinates project direction and communication, with project-based support around the agreed work."
+      "a": "Dilukshan (Dilux), founder of Zyberlane, coordinates project direction and communication, with project-based collaborators involved as agreed."
     },
     {
       "q": "What is Zyberlane?",
@@ -344,7 +344,7 @@
     }
   ],
   "create": {
-    "title": "Digital experiences built around your business.",
+    "title": "Creative technology built around ideas.",
     "cta": [
       "That's completely fine.",
       "Tell us what you're trying to achieve.",
@@ -473,7 +473,7 @@
   },
   "founder": {
     "label": "The person behind ZYBERLANE",
-    "name": "Zyberlane",
+    "name": "Dilukshan (Dilux)",
     "roles": [
       "Founder",
       "Project direction",
@@ -486,7 +486,7 @@
     ],
     "quote": "Project communication, direction and coordination led by Zyberlane.",
     "body": [
-      "Dilukshan (Zyberlane) leads project communication, planning, direction and coordination, and handles suitable development work directly.",
+      "Dilukshan (Dilux), founder of Zyberlane, leads project communication, planning, direction and coordination, and handles suitable development work directly.",
       "Zyberlane is a founder-led creative technology company based in Sri Lanka and open to collaborations worldwide. Project scope and responsibilities are agreed before execution.",
       "Project-based collaborators support suitable briefs. Human decisions, testing and review guide AI-assisted workflows."
     ],
@@ -1738,7 +1738,7 @@
     },
     {
       "id": "contact.phone",
-      "q": "Can I call you?",
+      "q": "How can I message Zyberlane on WhatsApp?",
       "ph": [
         "phone number",
         "can i call you",
@@ -1756,7 +1756,7 @@
     },
     {
       "id": "contact.socials",
-      "q": "Are you on Instagram or LinkedIn?",
+      "q": "Where can I find Zyberlane online?",
       "ph": [
         "instagram",
         "linkedin",
