@@ -4,7 +4,7 @@
   "brand": {
     "name": "Zyberlane",
     "full": "Zyberlane",
-    "tagline": "Clear goals. Practical scope. Human review."
+    "tagline": "Creating Beyond Boundaries."
   },
   "nav": {
     "": "Home",
@@ -132,7 +132,7 @@
   "faq": [
     {
       "q": "What does Zyberlane do?",
-      "a": "We build business websites, landing pages, portfolios, web applications and custom digital tools, alongside AI integrations and automation. E-commerce, booking and other custom solutions are scoped around your requirements."
+      "a": "Zyberlane is a creative technology company developing original software, immersive experiences, interactive digital art and experimental technology. We also collaborate with clients on websites, branding, content and digital systems."
     },
     {
       "q": "How do I get a quotation?",
@@ -152,7 +152,7 @@
     },
     {
       "q": "What services are available?",
-      "a": "Web Design & Development; Branding & Creative; Digital Marketing; Social Media & Content; Search & AI Visibility; AI & Business Automation."
+      "a": "For client collaborations, we scope Web Design & Development, Branding & Creative, Digital Marketing, Social Media & Content, Search & AI Visibility, and AI & Business Automation. Original XR and creative technology projects are developed separately."
     },
     {
       "q": "Can you add e-commerce or booking?",
@@ -160,11 +160,11 @@
     },
     {
       "q": "Can you create an interactive experience?",
-      "a": "Share the intended interaction. Its scope, feasibility and testing requirements must be agreed before development."
+      "a": "Yes. We explore interactive web experiences, XR software, real-time visuals and creative coding. Client requests are reviewed for feasibility, scope, device compatibility and testing before commitments are made."
     },
     {
       "q": "Do you build web applications?",
-      "a": "Web applications and custom digital tools are scoped around your requirements."
+      "a": "Yes. We develop original software experiments and take on suitable client web applications and custom digital tools, with requirements and feasibility agreed before development."
     },
     {
       "q": "How is a project scoped?",
@@ -192,7 +192,7 @@
     },
     {
       "q": "What is Zyberlane?",
-      "a": "A founder-led digital business based in Sri Lanka, open to remote projects worldwide."
+      "a": "Zyberlane is a founder-led creative technology company based in Sri Lanka, creating original software and interactive experiences while collaborating with clients worldwide."
     }
   ],
   "faq_url": {
@@ -487,7 +487,7 @@
     "quote": "Project communication, direction and coordination led by Zyberlane.",
     "body": [
       "Dilukshan (Zyberlane) leads project communication, planning, direction and coordination, and handles suitable development work directly.",
-      "Zyberlane is founder-led, based in Sri Lanka and open to remote projects worldwide. Project scope and responsibilities are agreed before execution.",
+      "Zyberlane is a founder-led creative technology company based in Sri Lanka and open to collaborations worldwide. Project scope and responsibilities are agreed before execution.",
       "Project-based collaborators support suitable briefs. Human decisions, testing and review guide AI-assisted workflows."
     ],
     "src": "WHO.founder",
