@@ -18,7 +18,7 @@ Vercel output directory: `dist`. Automatic Git-triggered Vercel deployments are 
 
 ## Review scope
 
-All 41 original HTML documents remain, with the original main application JavaScript and stylesheets. Six approved Zyberlane service categories and two labelled demonstration slots preserve the eight-slot layout. Divine Tattoo occupies the retained `projects/aivinci/` template; the other 29 project pages are demonstrations. Original photos and films are replaced with labelled fixtures while rights-cleared business media is prepared.
+All 41 original HTML documents remain, with the original main application JavaScript and stylesheets. Six existing Zyberlane business-service categories and two clearly labelled experimental showcase areas preserve the eight-slot layout. These research showcases are not additional client service offers. Divine Tattoo occupies the retained `projects/aivinci/` template; the other 29 project pages are demonstrations. Original photos and films are replaced with labelled fixtures while rights-cleared business media is prepared.
 
 The form opens an email draft addressed to contact@zyberlane.com. No mail backend was added. The chatbot remains local and deterministic.
 
