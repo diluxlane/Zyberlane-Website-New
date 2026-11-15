@@ -38,3 +38,17 @@
 @media (prefers-reduced-motion:reduce){
   .tsi__word .zl-intro-word,.tsi__word .zl-intro-company{animation:none!important}
 }
+
+
+/* Compact footers (contact/404): same ZL icon + original vector wordmark. */
+.ft__bigmark{display:flex;align-items:center;justify-content:center;gap:clamp(16px,3vw,38px);max-width:100%;min-width:0}
+.ft__bigmark .zl-footer-mark{width:clamp(44px,7vw,90px);height:auto;flex:none;fill:currentColor}
+.ft__bigmark .zl-bigmark-type{display:flex;flex-direction:column;align-items:center;gap:clamp(10px,1.5vw,18px);max-width:100%;min-width:0;flex:1}
+.ft__bigmark .zl-bigmark-type svg{width:100%;height:auto;aspect-ratio:916/100;flex:none;overflow:visible}
+.ft__bigmark .zl-bigmark-type .zl-company{display:block;max-width:100%;font-size:clamp(9px,1.5vw,18px);font-weight:480;letter-spacing:clamp(.11em,.38vw,.3em);text-align:center;white-space:nowrap;line-height:1.35;color:var(--ink-2)}
+@media(max-width:799.98px){
+  .ft__bigmark{flex-direction:column;gap:20px}
+  .ft__bigmark .zl-footer-mark{width:46px}
+  .ft__bigmark .zl-bigmark-type{width:100%;flex:auto}
+  .ft__bigmark .zl-bigmark-type .zl-company{font-size:clamp(8px,1.95vw,13px);letter-spacing:.08em}
+}
