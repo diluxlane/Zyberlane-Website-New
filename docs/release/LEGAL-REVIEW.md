@@ -1,7 +1,7 @@
 # Terms and privacy — review brief (not final legal text)
 
 **Status: OWNER/LEGAL APPROVAL REQUIRED — do not publish this file as a policy.**
-Prepared 2026-11-15 for release planning. Applicable legal obligations and accurate business/operator facts must be established before final text is drafted and approved.
+Prepared 2026-11-15 for release planning. **Owner-confirmed facts:** business/operating name **Zyberlane**; legal operating country **Sri Lanka**; **unregistered independent business**, not a registered company. Do not assert an incorporated legal entity, company registration number, or registered status. The proprietor/contracting party, business address, retention periods, processors and applicable legal terms remain unverified. These facts alone do not establish legal compliance; final text still needs appropriate review.
 
 ## Observed existing pages
 
@@ -13,7 +13,7 @@ Prepared 2026-11-15 for release planning. Applicable legal obligations and accur
 
 ## Privacy policy fact-gathering (blocking questions)
 
-1. Exact legal/business operator and jurisdiction, registered/physical contact address if applicable, and privacy contact.
+1. Operator/contracting party details and appropriate legal contact/address if applicable (brand Zyberlane, Sri Lanka, unregistered independent business confirmed; other identity and address facts pending).
 2. Real data flows and lawful basis: enquiry email or endpoint fields, chatbot state, consent preference, hosting logs, site performance, monitoring, any analytics, embedded assets, third-party links.
 3. Real cookie/localStorage/sessionStorage inventory: names, purpose, expiry, necessary/optional, consent behavior and how users can withdraw consent.
 4. Recipients/processors and geography: actual host, mail/CRM provider if any, messaging apps, security/monitoring tools, retention and transfers.
