@@ -1,13 +1,14 @@
 # Contact delivery requirements and implementation decision
 
-**Current implementation:** client-side email draft, *not a backend*.
-**Owner choice required before changing behavior:** mailto-only as the deliberate final design **or** real form delivery via an approved HTTPS endpoint.
+**Owner decision (2026-11-15):** **Automatic** form submission to the business mailbox `contact@zyberlane.com`; retain an honest direct-email fallback.
+**Implementation on this branch:** same-origin `/api/contact` endpoint via `api/contact.mjs`, JSON `POST` from `dist/app.js`, and contact markup wired to that endpoint. This is **code-prepared, not live email delivery**.
+**Service status:** Resend REST adapter included as a proposed provider; no credentials or verified sender domain were supplied or configured. The handler deliberately returns HTTP 503 and the UI shows an error until configured. Do not claim mailbox delivery without a real receipt test.
 
 ## Verified source behavior
 
-- `dist/contact/index.html`: form `action="mailto:contact@zyberlane.com"`, `method="post"`, `enctype="text/plain"`, `data-email="contact@zyberlane.com"`, `data-endpoint=""`.
-- `dist/app.js`: validates fields and uses `window.location.href = mailtoHref(d)` when endpoint is empty, then displays a mail-handoff state. With endpoint configured it POSTs FormData and expects an HTTP success response.
-- The page already states: "This form prepares an email in your email app. Review and send it yourself."
+- At the Phase 4 baseline, `data-endpoint=""`. On the Phase 5 branch, `data-endpoint="/api/contact"`, while the native `action="mailto:contact@zyberlane.com"` remains available when JavaScript is disabled.
+- `dist/app.js` still retains the mailto fallback when no endpoint is specified, but now submits JSON to `/api/contact` when configured and requires `{ok:true,status:"accepted"}` in the response before showing a confirmation. Provider acceptance does not prove inbox receipt.
+- The Phase 5 page explains it attempts automatic sending through an email service and instructs visitors to use direct email if delivery fails. It does not falsely report successful sending when the backend is missing.
 - Existing form categories include business services, original product and creative technology collaboration, partnerships/research and maintenance/support.
 - Approved WhatsApp Business: +94 71 152 4659; chatbot and About links should route consistently.
 - The chatbot is local/deterministic; contact capture must not be misrepresented as CRM delivery.
@@ -41,4 +42,4 @@ The owner must designate the receiving service, verified destination mailbox and
 | WhatsApp and chatbot route | Correct verified contact target and context |
 | Privacy/data minimization | Real processors/retention accurately documented and approved |
 
-**Decision record:** Unselected. Do not switch from mailto to an unknown provider on assumptions. Preserve existing working fallback and app architecture until approved and tested.
+**Decision record:** Automatic delivery approved by owner on 2026-11-15; implementation prepared with Resend as a replaceable proposed provider. Connection/verified domain and recipient setup, owner acceptance of the actual processor, spam/rate-limit protection, data-policy update and inbox receipt testing are **blocking** before making this feature public. The code fails closed without credentials. See [setup guide](EMAIL-SETUP.md).
