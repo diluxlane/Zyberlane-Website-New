@@ -1,0 +1,41 @@
+{
+  "schema": "zyberlane-identity/v1",
+  "version": "2026-11-15",
+  "parentBrand": "ZYBERLANE",
+  "descriptor": "CREATIVE TECHNOLOGY COMPANY",
+  "tagline": "Built Beyond Boundaries.",
+  "meaning": "Brand positioning only; does not imply incorporated or registered-company status.",
+  "originalWordmark": "zyberlane-wordmark.svg",
+  "zLMark": "zyberlane-mark.svg",
+  "lockup": "zyberlane-lockup.svg",
+  "palette": {
+    "background": "#000000",
+    "backgroundSecondary": "#060606",
+    "surface1": "#0d0d0d",
+    "surface2": "#141414",
+    "surface3": "#1c1c1c",
+    "text": "#f4f4f2",
+    "textSecondary": "rgba(244,244,242,.74)",
+    "border": "rgba(255,255,255,.1)"
+  },
+  "typography": {
+    "ui": "TS Sans, Helvetica Neue, Inter Tight, system-ui",
+    "wordmark": "Original vector outlines, not a third-party text font"
+  },
+  "motion": {
+    "ease": "cubic-bezier(.22,1,.36,1)",
+    "reducedMotion": true
+  },
+  "composition": [
+    "ZL icon",
+    "ZYBERLANE wordmark",
+    "CREATIVE TECHNOLOGY COMPANY descriptor",
+    "optional / PRODUCT suffix",
+    "Built Beyond Boundaries. tagline"
+  ],
+  "productExamples": [
+    "ZYBERLANE / XR",
+    "ZYBERLANE / LABS"
+  ],
+  "integrity": "Never invent projects, reviews, clients, media ownership, legal registration or accessibility test evidence."
+}
