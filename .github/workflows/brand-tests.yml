@@ -1,0 +1,29 @@
+name: Unified brand identity checks
+on:
+  pull_request:
+    paths:
+      - "dist/**/*.html"
+      - "dist/styles.css"
+      - "dist/assets/brand/*.svg"
+      - "tests/brand-identity.test.mjs"
+      - ".github/workflows/brand-tests.yml"
+  push:
+    branches: [main]
+    paths:
+      - "dist/**/*.html"
+      - "dist/styles.css"
+      - "dist/assets/brand/*.svg"
+permissions:
+  contents: read
+jobs:
+  branding:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node --test tests/brand-identity.test.mjs
