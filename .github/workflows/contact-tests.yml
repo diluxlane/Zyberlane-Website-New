@@ -1,0 +1,29 @@
+name: Contact API tests
+
+on:
+  pull_request:
+    paths:
+      - "api/**"
+      - "tests/contact.test.mjs"
+      - ".github/workflows/contact-tests.yml"
+  push:
+    branches:
+      - "docs/phase5-release-readiness-20261115"
+    paths:
+      - "api/**"
+      - "tests/contact.test.mjs"
+      - ".github/workflows/contact-tests.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run unit tests (no real provider calls)
+        run: node --test tests/contact.test.mjs

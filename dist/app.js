@@ -4581,8 +4581,8 @@ function t(t,i,e){return Math.max(t,Math.min(i,e))}var i=class{isRunning=!1;valu
       if (!done) return;
       doneText.replaceChildren();
       if (mode === 'sent') {
-        doneTitle.textContent = 'Thank you. Your message is on its way.';
-        doneText.append("We'll take it from there.");
+        doneTitle.textContent = 'Your enquiry was accepted for email delivery.';
+        doneText.append('We will review it when it reaches our inbox.');
       } else {
         doneTitle.textContent = 'Your email app should now be open.';
         doneText.append('Your message is written and ready, just press send. If nothing opened, you can write to us at ', mailLink(), '.');
@@ -4623,8 +4623,10 @@ function t(t,i,e){return Math.max(t,Math.min(i,e))}var i=class{isRunning=!1;valu
 
       busy(true);
       try {
-        const res = await fetch(endpoint, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+        const res = await fetch(endpoint, { method: 'POST', body: JSON.stringify(d), credentials: 'same-origin', headers: { 'Content-Type': 'application/json', Accept: 'application/json' } });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const ack = await res.json();
+        if (!ack || ack.ok !== true || ack.status !== 'accepted') throw new Error('Missing delivery acknowledgement');
         form.reset();
         form.querySelectorAll('select').forEach(s => s.dispatchEvent(new Event('change')));
         syncQuick();
