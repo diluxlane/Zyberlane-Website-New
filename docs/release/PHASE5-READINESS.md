@@ -1,6 +1,7 @@
 # Phase 5 — Zyberlane release-readiness gate
 
 Status: **IN PROGRESS — NOT APPROVED FOR PUBLIC LAUNCH**
+Owner decisions received 2026-11-15: Zyberlane, Sri Lanka, unregistered independent business; **automatic** contact delivery to `contact@zyberlane.com`. Live service credentials, domain verification, final legal facts and final media still pending.
 Baseline: `main` following [Phase 4 PR #6](https://github.com/diluxlane/Zyberlane-Website-New/pull/6) and [owner-attested QA sign-off](../qa/PHASE4-QA-SIGNOFF-2026-11-15.md).
 Prepared: 2026-11-15 (Asia/Colombo).
 Scope: final media, business content, legal/privacy policies and contact delivery. **Preserve the monochrome design, existing animations, page structure and production separation.**
@@ -24,7 +25,7 @@ Scope: final media, business content, legal/privacy policies and contact deliver
 | Content and claims | Phase 4 wording corrected; legacy shared copy remains | Brand names/tagline, all page titles, case studies, FAQ, social links, demos, reviews and contact labels are consistently truthful |
 | Privacy/cookies | Placeholder | Owner-approved policy accurately reflects real deployment, local storage, cookies, hosting, analytics, processors, retention and rights |
 | Terms | Placeholder | Owner-approved terms include accurate identity, website-use terms, project contracting boundaries and dispute/contact details |
-| Contact delivery | Client-side mailto only | Owner chooses explicit mailto-only experience or provides a configured and tested HTTPS delivery service; every UI status reflects actual outcome |
+| Contact delivery | **Automatic mode approved and branch implementation prepared; not live** | Configure verified sender, email service and destination; perform real inbox receipt and failure tests; no false success |
 | Technical release | Owner-attested Phase 4 QA | Fresh QA on the *final* release head, media loads, contact tests, license checks, correct production environment, SEO/indexing review |
 | Launch | Not approved | Owner separately approves production, domains, indexing and launch checklist |
 
@@ -42,8 +43,8 @@ Scope: final media, business content, legal/privacy policies and contact deliver
 
 - [ ] Approve a page-by-page rights-cleared image/video/logo register; archive proof of rights outside public repo as needed.
 - [ ] Approve public claims, labels, testimonials and global footer/tagline consistency.
-- [ ] Supply legally accurate entity/operator identity, data retention and processors; obtain final policy review.
-- [ ] Decide contact strategy (explicit mailto-only **or** real endpoint). If endpoint: configure provider and test deliverability, failures, consent, privacy and spam mitigation.
+- [x] Record brand name Zyberlane, Sri Lanka, unregistered independent business. [ ] Confirm contracting-party/operator identity, retention and processors; [ ] obtain final policy review.
+- [x] Decide contact strategy: automatic form delivery approved. [ ] Verify/connect email provider, configure secret variables and sender/domain; [ ] pass end-to-end delivery, failure, consent, privacy and spam/rate-limiting tests.
 - [ ] Re-run final website regression and collect source-linked evidence.
 - [ ] Obtain explicit production go/no-go approval.
 
