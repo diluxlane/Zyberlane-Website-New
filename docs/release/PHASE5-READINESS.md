@@ -39,10 +39,20 @@ Scope: final media, business content, legal/privacy policies and contact deliver
 6. Do not remove noindex or change DNS/old Netlify production without separately approved launch instructions.
 7. Do not accept screenshots, checksums, browser results or media-rights documents that have not actually been produced; record evidence provenance.
 
+## Owner-approved sequencing update — 2026-11-15
+
+The owner explicitly requested that **final website photographs, videos, logo/identity asset replacement, additional real-project case studies, and testimonials be deferred** until genuine Zyberlane projects and supporting media are developed and authorized. This is a deliberate sequencing choice, **not** an approval of existing fixtures as final assets and **not** a waiver of release requirements.
+
+- **Deferred to portfolio/media integration stage:** media fixture replacement, new case studies, testimonial collection/verification, and final logo asset review. Preserve truthful demonstration labels in the interim; do not invent assets, reviews, project outcomes, or client permissions.
+- **Active separately:** automatic contact form delivery service configuration and real inbox tests; legally accurate Privacy/Terms preparation and approval; consistent existing business copy when reviewed.
+- **Next product-building priority:** complete and validate an original Zyberlane project in its own repository, starting with `diluxlane/Zyberlane-XR` (experimental), then original Creative Lab work; verify `diluxlane/project1` as an attributed/authorized adaptation before any commercial claims. Integrate only completed and truthful work into the website.
+- **GitHub account:** use the connected `diluxlane` account for Zyberlane project repository writes and PRs. This is separate from the official website social organization URL `https://github.com/Zyberlane`, which remains unchanged unless the owner approves a change.
+- **Release gate remains:** do not launch the site publicly with unapproved media, placeholder policies, unverified contact delivery or unapproved source/license claims. No DNS, old production or indexing changes are authorized by this sequencing update.
+
 ## Immediate work orders
 
-- [ ] Approve a page-by-page rights-cleared image/video/logo register; archive proof of rights outside public repo as needed.
-- [ ] Approve public claims, labels, testimonials and global footer/tagline consistency.
+- [ ] **Deferred by owner** — approve a page-by-page rights-cleared image/video/logo register after genuine project assets are prepared; archive proof of rights outside public repo as needed.
+- [ ] **Deferred by owner for new work/testimonials** — publish new case studies and authenticated testimonials only after actual projects and approvals. Continue independently checking existing shared branding/footer copy without inventing work.
 - [x] Record brand name Zyberlane, Sri Lanka, unregistered independent business. [ ] Confirm contracting-party/operator identity, retention and processors; [ ] obtain final policy review.
 - [x] Decide contact strategy: automatic form delivery approved. [ ] Verify/connect email provider, configure secret variables and sender/domain; [ ] pass end-to-end delivery, failure, consent, privacy and spam/rate-limiting tests.
 - [ ] Re-run final website regression and collect source-linked evidence.
