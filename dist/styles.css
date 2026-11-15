@@ -52,3 +52,18 @@
   .ft__bigmark .zl-bigmark-type{width:100%;flex:auto}
   .ft__bigmark .zl-bigmark-type .zl-company{font-size:clamp(8px,1.95vw,13px);letter-spacing:.08em}
 }
+
+
+/* Keep the approved opening choreography with original vector glyph strokes. */
+.ts-intro.tsi-go .zl-intro-word path{stroke-dasharray:460;stroke-dashoffset:460;animation:zl-glyph-assemble 760ms cubic-bezier(.22,1,.36,1) calc(1480ms + var(--glyph-order,0) * 67ms) both}
+.zl-intro-word path:nth-child(1){--glyph-order:0}
+.zl-intro-word path:nth-child(2){--glyph-order:1}
+.zl-intro-word path:nth-child(3){--glyph-order:2}
+.zl-intro-word path:nth-child(4){--glyph-order:3}
+.zl-intro-word path:nth-child(5){--glyph-order:4}
+.zl-intro-word path:nth-child(6){--glyph-order:5}
+.zl-intro-word path:nth-child(7){--glyph-order:6}
+.zl-intro-word path:nth-child(8){--glyph-order:7}
+.zl-intro-word path:nth-child(9){--glyph-order:8}
+@keyframes zl-glyph-assemble{from{stroke-dashoffset:460;opacity:.1}to{stroke-dashoffset:0;opacity:1}}
+@media(prefers-reduced-motion:reduce){.ts-intro.tsi-go .zl-intro-word path{animation:none!important;stroke-dashoffset:0!important;opacity:1!important}}
