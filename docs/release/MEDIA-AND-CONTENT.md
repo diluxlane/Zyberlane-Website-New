@@ -1,11 +1,11 @@
 # Media and content — approval and replacement register
 
-Status: **Needs owner-supplied/rights-cleared originals and review; no substitution is authorized yet.**
+Status: **26 homepage editorial images authorized by owner attestation; remaining media and release review pending.**
 Baseline: Phase 4 on `diluxlane/Zyberlane-Website-New`.
 
 ## Media facts and decisions
 
-- `THIRD-PARTY-NOTICES.md` reports **1,492** neutral demo media paths, of which **88** are silent 1-fps placeholder video files. Do not count these as final film/video assets.
+- `THIRD-PARTY-NOTICES.md` originally reported **1,492** neutral demo media paths, of which **88** are silent 1-fps placeholder video files. Do not count these as final film/video assets.
 - The retained original media belongs to the upstream TESERACT design baseline and was *not* imported as unrestricted commercial stock. Rights to source code do not independently prove rights to photos, original-client screenshots or films.
 - Brand ZL monogram: an owner-supplied raster was preserved, variants derived, and an approximate SVG traced. Approve SVG accuracy against approved raster before relying on it as master identity.
 - A screenshot or actual outcome for a client project must be sourced from the project and cleared for public display, not inferred from demo visuals.
@@ -39,3 +39,7 @@ Baseline: Phase 4 on `diluxlane/Zyberlane-Website-New`.
 ## Deployment gate
 
 Fixtures may remain in a private noindex *development demonstration*, honestly labelled, while approved replacements are prepared. They must **not** be silently relabelled as real past client work or original commercial portfolio media. Final asset approval and a new visual regression pass are required before public release.
+
+## 2026-11-24 — scoped editorial-media restoration
+
+The Zyberlane owner confirmed by chat that the original owner granted full reuse and modification permission by telephone and supplied their fork, [diluxlane/Teseract-creative-studious](https://github.com/diluxlane/Teseract-creative-studious). Permission is owner-attested; no independent written contract or separate third-party rights records were inspected. The 26 homepage WebP assets (meeting composition, six philosophy artworks, hand and laptop layers) were restored byte-for-byte from commit `b073ac6492efae12c131b4a8fa1be786bc80af81`. This scope is editorial/illustrative only, not evidence of Zyberlane staff, client work, testimonials or results. All other demo images and 88 placeholder videos remain unchanged. No public release, production deployment or DNS change is authorized. Fresh visual/device QA remains required.
