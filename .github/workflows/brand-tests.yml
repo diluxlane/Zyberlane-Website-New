@@ -6,10 +6,20 @@ on:
       - "dist/styles.css"
       - "dist/assets/brand/*.svg"
       - "tests/brand-identity.test.mjs"
+      - "tests/editorial-media.test.mjs"
+      - "media-replacement-manifest.json"
+      - "dist/assets/agency/**"
+      - "dist/assets/believe/**"
+      - "dist/assets/idea/**"
       - ".github/workflows/brand-tests.yml"
   push:
     branches: [main]
     paths:
+      - "tests/editorial-media.test.mjs"
+      - "media-replacement-manifest.json"
+      - "dist/assets/agency/**"
+      - "dist/assets/believe/**"
+      - "dist/assets/idea/**"
       - "dist/**/*.html"
       - "dist/styles.css"
       - "dist/assets/brand/*.svg"
@@ -26,4 +36,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - run: node --test tests/brand-identity.test.mjs
+      - run: node --test tests/brand-identity.test.mjs tests/editorial-media.test.mjs
