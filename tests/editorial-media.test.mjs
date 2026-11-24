@@ -8,8 +8,8 @@ const root = fileURLToPath(new URL("../", import.meta.url));
 const manifest = JSON.parse(fs.readFileSync(path.join(root,"media-replacement-manifest.json"),"utf8"));
 const rows = manifest.filter(r=>r.status==="restored original editorial image — owner permission attested");
 const html = fs.readFileSync(path.join(root,"dist/index.html"),"utf8");
-test("all 26 original editorial images match source Git blob hashes",()=>{
-  assert.equal(rows.length,26);
+test("all 31 original editorial images match source Git blob hashes",()=>{
+  assert.equal(rows.length,31);
   for(const r of rows){
     const b=fs.readFileSync(path.join(root,"dist",r.file));
     assert.equal(b.length,r.bytes,r.file);
@@ -21,7 +21,14 @@ test("all 26 original editorial images match source Git blob hashes",()=>{
   }
 });
 test("restored homepage media no longer uses placeholder alt labels",()=>{
- const tags=html.match(/<img\b[^>]*(?:agency-meeting|believe-|idea-hand|idea-laptop)[^>]*>/g)||[];
- assert.equal(tags.length,11);
+ const tags=html.match(/<img\b[^>]*(?:agency-meeting|agency-astronaut|believe-|idea-hand|idea-laptop)[^>]*>/g)||[];
+ assert.equal(tags.length,14);
  for(const tag of tags)assert.doesNotMatch(tag,/approved media pending/);
+});
+
+test("astronaut composition retains original layers and responsive sizes",()=>{
+ const tags=html.match(/<img\b[^>]*agency-astronaut[^>]*>/g)||[];
+ assert.equal(tags.length,3);
+ for(const layer of ["shadow","splash","body"])assert.ok(tags.some(t=>t.includes('class="agc-fig__'+layer+'"')));
+ for(const layer of ["body","splash"]){const tag=tags.find(t=>t.includes('class="agc-fig__'+layer+'"'));assert.ok(tag.includes('agency-astronaut-'+layer+'-480.webp 480w'));assert.ok(tag.includes('agency-astronaut-'+layer+'.webp 772w'));assert.ok(tag.includes('width="772" height="1198"'));}
 });

@@ -1,6 +1,6 @@
 # Media and content — approval and replacement register
 
-Status: **26 homepage editorial images authorized by owner attestation; remaining media and release review pending.**
+Status: **31 homepage editorial images authorized by owner attestation; remaining media and release review pending.**
 Baseline: Phase 4 on `diluxlane/Zyberlane-Website-New`.
 
 ## Media facts and decisions
@@ -42,4 +42,6 @@ Fixtures may remain in a private noindex *development demonstration*, honestly l
 
 ## 2026-11-24 — scoped editorial-media restoration
 
-The Zyberlane owner confirmed by chat that the original owner granted full reuse and modification permission by telephone and supplied their fork, [diluxlane/Teseract-creative-studious](https://github.com/diluxlane/Teseract-creative-studious). Permission is owner-attested; no independent written contract or separate third-party rights records were inspected. The 26 homepage WebP assets (meeting composition, six philosophy artworks, hand and laptop layers) were restored byte-for-byte from commit `b073ac6492efae12c131b4a8fa1be786bc80af81`. This scope is editorial/illustrative only, not evidence of Zyberlane staff, client work, testimonials or results. All other demo images and 88 placeholder videos remain unchanged. No public release, production deployment or DNS change is authorized. Fresh visual/device QA remains required.
+The Zyberlane owner confirmed by chat that the original owner granted full reuse and modification permission by telephone and supplied their fork, [diluxlane/Teseract-creative-studious](https://github.com/diluxlane/Teseract-creative-studious). Permission is owner-attested; no independent written contract or separate third-party rights records were inspected. The 31 homepage WebP assets (meeting composition, six philosophy artworks, hand and laptop layers, and five astronaut composition files) were restored byte-for-byte from commit `b073ac6492efae12c131b4a8fa1be786bc80af81`. This scope is editorial/illustrative only, not evidence of Zyberlane staff, client work, testimonials or results. All other demo images and 88 placeholder videos remain unchanged. No public release, production deployment or DNS change is authorized. Fresh visual/device QA remains required.
+
+Homepage completion step 1: restored the five original astronaut body, splash, shadow and 480w responsive files under the same owner-attested permission. Existing animation classes, image geometry and responsive markup remain unchanged; live visual QA is still required.

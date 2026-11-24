@@ -93,31 +93,61 @@
     "file": "assets/agency/agency-astronaut-splash-480.webp",
     "width": 480,
     "height": 745,
-    "status": "neutral demonstration image"
+    "status": "restored original editorial image — owner permission attested",
+    "source_repository": "diluxlane/Teseract-creative-studious",
+    "source_commit": "b073ac6492efae12c131b4a8fa1be786bc80af81",
+    "git_blob_sha": "ca1cddb07e32f74bae5935d3b9ac8734f003e5ea",
+    "bytes": 61676,
+    "approval_date": "2026-11-24",
+    "approval_basis": "Zyberlane owner confirmed full reuse and modification permission by phone; no separate written agreement inspected"
   },
   {
     "file": "assets/agency/agency-astronaut-splash.webp",
     "width": 772,
     "height": 1198,
-    "status": "neutral demonstration image"
+    "status": "restored original editorial image — owner permission attested",
+    "source_repository": "diluxlane/Teseract-creative-studious",
+    "source_commit": "b073ac6492efae12c131b4a8fa1be786bc80af81",
+    "git_blob_sha": "4d1f2ba87c345a1718c899563f6f2338461218c2",
+    "bytes": 93470,
+    "approval_date": "2026-11-24",
+    "approval_basis": "Zyberlane owner confirmed full reuse and modification permission by phone; no separate written agreement inspected"
   },
   {
     "file": "assets/agency/agency-astronaut-body.webp",
     "width": 772,
     "height": 1198,
-    "status": "neutral demonstration image"
+    "status": "restored original editorial image — owner permission attested",
+    "source_repository": "diluxlane/Teseract-creative-studious",
+    "source_commit": "b073ac6492efae12c131b4a8fa1be786bc80af81",
+    "git_blob_sha": "a402657cfdc252cb4aca2b02a38b5828bb686600",
+    "bytes": 60554,
+    "approval_date": "2026-11-24",
+    "approval_basis": "Zyberlane owner confirmed full reuse and modification permission by phone; no separate written agreement inspected"
   },
   {
     "file": "assets/agency/agency-astronaut-body-480.webp",
     "width": 480,
     "height": 745,
-    "status": "neutral demonstration image"
+    "status": "restored original editorial image — owner permission attested",
+    "source_repository": "diluxlane/Teseract-creative-studious",
+    "source_commit": "b073ac6492efae12c131b4a8fa1be786bc80af81",
+    "git_blob_sha": "376aa3f0770c0fcd839d8b876399c87e15eec10d",
+    "bytes": 39434,
+    "approval_date": "2026-11-24",
+    "approval_basis": "Zyberlane owner confirmed full reuse and modification permission by phone; no separate written agreement inspected"
   },
   {
     "file": "assets/agency/agency-astronaut-shadow.webp",
     "width": 1234,
     "height": 199,
-    "status": "neutral demonstration image"
+    "status": "restored original editorial image — owner permission attested",
+    "source_repository": "diluxlane/Teseract-creative-studious",
+    "source_commit": "b073ac6492efae12c131b4a8fa1be786bc80af81",
+    "git_blob_sha": "306a605081fd5dacbf56925a8f2a49b9efc1539e",
+    "bytes": 14536,
+    "approval_date": "2026-11-24",
+    "approval_basis": "Zyberlane owner confirmed full reuse and modification permission by phone; no separate written agreement inspected"
   },
   {
     "file": "assets/agency/agency-meeting-480.webp",
