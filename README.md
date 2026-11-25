@@ -41,3 +41,7 @@ The Zyberlane owner confirmed by chat that the original owner granted full reuse
 `implementation-sha256.csv` is the historical initial package inventory, not a current release checksum. The media manifest records source Git blob hashes for the restored files. Run `node --test tests/editorial-media.test.mjs` to check the restored assets and homepage references.
 
 Homepage completion step 1: restored the five original astronaut body, splash, shadow and 480w responsive files under the same owner-attested permission. Existing animation classes, image geometry and responsive markup remain unchanged; live visual QA is still required.
+
+## Approved 2026–2040 brand transformation
+
+The new master descriptor and twelve-category capability structure are owner-approved. Current client work remains scoped; research and future engineering are explicitly separated. The capability registry is maintained in `brand/capabilities.json`. Existing production release gates remain in force.

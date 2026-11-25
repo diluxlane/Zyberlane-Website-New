@@ -3,8 +3,9 @@
   "built": "2026-11-10",
   "brand": {
     "name": "Zyberlane",
-    "full": "Zyberlane",
-    "tagline": "Built Beyond Boundaries."
+    "full": "Zyberlane — Technology & Transformation Company",
+    "tagline": "Built Beyond Boundaries.",
+    "descriptor": "Technology & Transformation Company"
   },
   "nav": {
     "": "Home",
@@ -132,7 +133,7 @@
   "faq": [
     {
       "q": "What does Zyberlane do?",
-      "a": "Zyberlane is a creative technology company developing original software, immersive experiences, interactive digital art and experimental technology. We also collaborate with clients on websites, branding, content and digital systems."
+      "a": "Zyberlane brings together creative design, digital experiences, web development and AI business automation. We also explore immersive technology and a long-term vision in Physical AI, robotics and industrial systems integration. Future engineering capabilities are not currently offered commercially."
     },
     {
       "q": "How do I get a quotation?",
@@ -152,7 +153,7 @@
     },
     {
       "q": "What services are available?",
-      "a": "For client collaborations, we scope Web Design & Development, Branding & Creative, Digital Marketing, Social Media & Content, Search & AI Visibility, and AI & Business Automation. Original XR and creative technology projects are developed separately."
+      "a": "Our six client enquiry areas are Web Design & Development, Branding & Creative (including logo and motion design), Digital Marketing, Social Media & Content, Search & AI Visibility, and AI & Business Automation. Delivery depends on agreed scope and readiness. XR and Creative Lab are separate innovation areas."
     },
     {
       "q": "Can you add e-commerce or booking?",
@@ -192,7 +193,11 @@
     },
     {
       "q": "What is Zyberlane?",
-      "a": "Zyberlane is a founder-led creative technology company based in Sri Lanka, creating original software and interactive experiences while collaborating with clients worldwide."
+      "a": "Zyberlane is a founder-led Technology & Transformation Company based in Sri Lanka, open to international collaboration. We help businesses evolve through suitable digital, creative and AI technologies, with a long-term vision for intelligent physical systems."
+    },
+    {
+      "q": "Do you currently offer robotics or industrial engineering services?",
+      "a": "Physical AI, robotics and industrial systems integration are part of our future vision, not currently offered commercial engineering services."
     }
   ],
   "faq_url": {
@@ -205,79 +210,101 @@
       "n": "01",
       "name": "Web Design & Development",
       "title": "Web Design & Development",
-      "body": "Responsive websites, landing pages, web applications and custom digital tools, scoped around your requirements.",
+      "body": "Responsive digital experiences and business tools, scoped around your requirements. Available by project scope.",
       "tags": [
         "Business websites",
         "Landing pages",
         "Portfolio websites",
         "Website redesign",
-        "CMS workflows",
-        "Booking systems",
+        "CMS / admin systems",
+        "Booking / contact systems",
         "Web applications",
-        "Responsive layouts"
+        "UI/UX design",
+        "Interactive websites",
+        "Responsive web experiences",
+        "Suitable business system integrations"
       ],
       "src": "CREATE.services.0",
-      "price": null
+      "price": null,
+      "status": "project-based",
+      "group": "current"
     },
     {
       "id": "website-development",
       "n": "02",
       "name": "Branding & Creative",
       "title": "Branding & Creative",
-      "body": "Branding and creative work, with deliverables agreed around the project brief.",
+      "body": "Build a distinctive visual identity, from logos and brand systems to motion and campaign graphics. Deliverables depend on the brief and specialist availability. Available by project scope.",
       "tags": [
-        "Project brief",
-        "Audience",
+        "Logo design",
+        "Brand identity",
+        "Brand direction",
+        "Graphic design",
+        "Posters and campaign graphics",
+        "Advertising creatives",
+        "Motion graphics",
         "Creative direction",
-        "Agreed deliverables",
-        "Review stages",
-        "Handover"
+        "Visual identity systems",
+        "Digital brand assets"
       ],
       "src": "CREATE.services.1",
-      "price": null
+      "price": null,
+      "status": "project-based",
+      "group": "current"
     },
     {
       "id": "e-commerce",
       "n": "03",
       "name": "Digital Marketing",
       "title": "Digital Marketing",
-      "body": "Digital marketing, including paid advertising, scoped around your business goals.",
+      "body": "Plan digital campaigns, advertising and growth initiatives around your goals. Platform suitability and delivery responsibilities are agreed before work. Available by project scope.",
       "tags": [
-        "Digital marketing",
-        "Paid advertising",
-        "Business goals",
-        "Agreed scope",
-        "Project brief",
-        "Review stages",
-        "Next steps"
+        "Digital marketing strategy",
+        "Campaign planning",
+        "Audience targeting",
+        "Google Ads",
+        "Meta Ads",
+        "Marketing creative coordination",
+        "Digital growth",
+        "Brand awareness",
+        "Digital advertising",
+        "Marketing technology integration"
       ],
       "src": "CREATE.services.2",
-      "price": null
+      "price": null,
+      "status": "project-based",
+      "group": "current"
     },
     {
       "id": "interactive-3d",
       "n": "04",
       "name": "Social Media & Content",
       "title": "Social Media & Content",
-      "body": "Social media and content, with scope and responsibilities agreed before execution.",
+      "body": "Discuss content, social media, video editing and digital storytelling tailored to your audience. Production scope and responsibilities are agreed before work. Available by project scope.",
       "tags": [
-        "Social media",
-        "Content brief",
-        "Audience",
-        "Agreed scope",
-        "Responsibilities",
-        "Review stages"
+        "Social media marketing",
+        "Social media management",
+        "Content planning",
+        "Social media creatives",
+        "Content creation",
+        "Video editing",
+        "Short-form content",
+        "Promotional videos",
+        "Script and campaign content",
+        "Digital storytelling"
       ],
       "src": "CREATE.services.3",
       "price": null,
-      "note": "Every interaction has a purpose."
+      "note": "Every interaction has a purpose.",
+      "status": "project-based",
+      "group": "current"
     },
     {
       "id": "brand-kits-identity",
       "n": "05",
       "name": "Search & AI Visibility",
       "title": "Search & AI Visibility",
-      "body": "Search visibility and AI-search readiness, scoped around the website and its requirements.",
+      "body": "Improve discoverability through technical search foundations and clear, useful content. No rankings, indexing or AI recommendations are guaranteed. Available by project scope.",
       "tags": [
         "Technical SEO",
         "On-page SEO",
@@ -285,66 +312,172 @@
         "AEO",
         "GEO",
         "Structured data",
-        "AI-search readiness"
+        "Sitemap / robots / indexing foundations",
+        "AI-search readiness",
+        "Bing / IndexNow readiness",
+        "Digital discoverability",
+        "AI-assisted search optimization"
       ],
       "src": "CREATE.services.4",
-      "price": null
+      "price": null,
+      "status": "project-based",
+      "group": "current"
     },
     {
       "id": "apps-saas",
       "n": "06",
       "name": "AI & Business Automation",
       "title": "AI & Business Automation",
-      "body": "AI integrations and business workflow automation, subject to feasibility and human review.",
+      "body": "Explore practical AI assistants, integrations and workflow automation, subject to feasibility, data protection, testing and human review. Available by project scope.",
       "tags": [
         "AI assistants",
-        "Workflow automation",
-        "Form/API integrations",
+        "AI agents",
+        "Business workflow automation",
+        "Form / API integrations",
         "Notifications",
-        "Human review",
-        "Feasibility",
-        "Agreed scope"
+        "Repetitive-task automation",
+        "Suitable AI-assisted workflows",
+        "Customer support automation",
+        "CRM integration",
+        "Booking automation",
+        "Business process automation",
+        "Intelligent business systems"
       ],
       "src": "CREATE.services.5",
-      "price": null
+      "price": null,
+      "status": "project-based",
+      "group": "current"
     },
     {
       "id": "ai-automation",
       "n": "07",
-      "name": "XR & Immersive Experiences",
-      "title": "XR & Immersive Experiences",
-      "body": "Research showcase, not a client service. The Zyberlane XR project page at /projects/zyberlane-xr/ describes experimental 180°/360° viewing, virtual cinema, optional sensor controls and planned worlds and games.",
+      "name": "XR & Immersive Technology",
+      "title": "XR & Immersive Technology",
+      "body": "Experimental immersive browser technology and spatial experiences. Features and device compatibility vary; not a commercial engineering service. Experimental technology.",
       "tags": [
-        "Experimental prototype",
-        "Not a client service",
-        "XR software development",
-        "180°/360° playback",
-        "Virtual cinema",
-        "Galaxy scene planned"
+        "Browser XR",
+        "VR",
+        "WebXR",
+        "360-degree video",
+        "Immersive experiences",
+        "Virtual worlds",
+        "Spatial computing",
+        "Interactive 3D",
+        "Gesture-based interactions"
       ],
       "src": "CREATE.services.6",
-      "price": null
+      "price": null,
+      "status": "experimental",
+      "group": "innovation"
     },
     {
       "id": "digital-strategy",
       "n": "08",
-      "name": "Creative Coding & Interactive Art",
-      "title": "Creative Coding & Interactive Art",
-      "body": "Creative technology research, not a client service. Fluid simulations, particles, audio visuals and hand-tracking experiments are planned for Creative Lab; no published Lab demos yet.",
+      "name": "Creative Lab & Research",
+      "title": "Creative Lab & Research",
+      "body": "A planned research hub exploring creative coding, simulations and intelligent interaction. Individual experiments require verification before being presented as released. Planned research.",
       "tags": [
-        "Creative R&D",
-        "Not a client service",
-        "Lab in planning",
-        "Fluid simulations",
-        "Gesture research",
-        "Interactive visuals"
+        "Creative coding",
+        "Interactive art",
+        "Particle simulations",
+        "Gesture particles",
+        "Hand tracking",
+        "Physics simulations",
+        "Experimental software",
+        "AI research",
+        "Real-time graphics",
+        "Educational engineering prototypes"
       ],
       "src": "CREATE.services.7",
-      "price": null
+      "price": null,
+      "status": "planned",
+      "group": "innovation"
+    },
+    {
+      "id": "physical-ai-robotics",
+      "n": "09",
+      "name": "Physical AI & Robotics",
+      "title": "Physical AI & Robotics",
+      "body": "Explore a long-term direction in intelligent machines and AI that interacts with the physical world. Future capability — not currently offered commercially.",
+      "tags": [
+        "Physical intelligence",
+        "Intelligent machines",
+        "Humanoid robotics",
+        "Autonomous systems",
+        "Human–robot interaction",
+        "Robot integration",
+        "AI-powered physical environments"
+      ],
+      "price": null,
+      "status": "future",
+      "group": "future"
+    },
+    {
+      "id": "industrial-engineering",
+      "n": "10",
+      "name": "Industrial Engineering & Automation",
+      "title": "Industrial Engineering & Automation",
+      "body": "Develop future expertise in industrial automation, mechatronics and integrated manufacturing systems. Future capability — not currently offered commercially.",
+      "tags": [
+        "Industrial automation",
+        "Mechatronics",
+        "Instrumentation",
+        "Control systems",
+        "Industrial robotics integration",
+        "Smart manufacturing",
+        "Smart factories",
+        "Automated production systems"
+      ],
+      "price": null,
+      "status": "future",
+      "group": "future"
+    },
+    {
+      "id": "industrial-software",
+      "n": "11",
+      "name": "Industrial Software & Digital Twins",
+      "title": "Industrial Software & Digital Twins",
+      "body": "Build towards software that connects industrial data, simulations and physical assets. Future capability — not currently offered commercially.",
+      "tags": [
+        "Industrial software",
+        "Digital twins",
+        "Engineering simulations",
+        "Machine vision",
+        "Industrial IoT",
+        "Machine monitoring",
+        "Predictive maintenance",
+        "Intelligent dashboards",
+        "Industrial data systems"
+      ],
+      "price": null,
+      "status": "future",
+      "group": "future"
+    },
+    {
+      "id": "systems-lifecycle",
+      "n": "12",
+      "name": "Systems Integration & Lifecycle Services",
+      "title": "Systems Integration & Lifecycle Services",
+      "body": "Develop future capability to integrate, maintain and evolve intelligent systems with qualified professionals. Future capability — not currently offered commercially.",
+      "tags": [
+        "AI deployment",
+        "Robotics deployment",
+        "Systems integration",
+        "Commissioning",
+        "Maintenance",
+        "Monitoring",
+        "Technical support",
+        "System upgrades",
+        "Training",
+        "Long-term managed automation services"
+      ],
+      "price": null,
+      "status": "future",
+      "group": "future"
     }
   ],
   "create": {
-    "title": "Creative technology built around ideas.",
+    "title": "Technology built around your business. Six project-based client areas, two innovation areas and four future capabilities.",
     "cta": [
       "That's completely fine.",
       "Tell us what you're trying to achieve.",
@@ -487,7 +620,7 @@
     "quote": "Project communication, direction and coordination led by Zyberlane.",
     "body": [
       "Dilukshan (Dilux), founder of Zyberlane, leads project communication, planning, direction and coordination, and handles suitable development work directly.",
-      "Zyberlane is a founder-led creative technology company based in Sri Lanka and open to collaborations worldwide. Project scope and responsibilities are agreed before execution.",
+      "Zyberlane is a founder-led technology and transformation company based in Sri Lanka and open to collaborations worldwide. Project scope and responsibilities are agreed before execution.",
       "Project-based collaborators support suitable briefs. Human decisions, testing and review guide AI-assisted workflows."
     ],
     "src": "WHO.founder",
@@ -1111,20 +1244,11 @@
       ],
       "b": [
         {
-          "t": "c",
-          "k": "seo"
-        },
-        {
-          "t": "from",
-          "page": "What We Create",
-          "url": {
-            "r": "what-we-create",
-            "f": "digital-strategy"
-          }
+          "t": "service",
+          "id": "brand-kits-identity"
         }
       ],
       "c": [
-        "ask_Zyberlane",
         "create"
       ]
     },
@@ -1141,21 +1265,12 @@
       ],
       "b": [
         {
-          "t": "c",
-          "k": "logo"
-        },
-        {
-          "t": "from",
-          "page": "What We Create",
-          "url": {
-            "r": "what-we-create",
-            "f": "brand-kits-identity"
-          }
+          "t": "service",
+          "id": "website-development"
         }
       ],
       "c": [
-        "cost_site",
-        "ask_Zyberlane"
+        "create"
       ]
     },
     {
@@ -2353,16 +2468,22 @@
     {
       "id": "svc.website-design",
       "ph": [
-        "web design",
+        "website design",
+        "web development",
         "ui ux",
-        "ux design",
-        "ui design",
-        "redesign",
-        "do you do redesigns",
-        "website design"
+        "cms",
+        "ecommerce",
+        "online store",
+        "web app"
       ],
       "k": [
-        "design"
+        "website design",
+        "web development",
+        "ui ux",
+        "cms",
+        "ecommerce",
+        "online store",
+        "web app"
       ],
       "b": [
         {
@@ -2371,22 +2492,26 @@
         }
       ],
       "c": [
-        "cost_site",
+        "create",
         "work"
-      ]
+      ],
+      "q": "Web Design & Development"
     },
     {
       "id": "svc.website-development",
       "ph": [
-        "development",
-        "web development",
-        "coding",
-        "cms website",
-        "responsive website",
-        "develop a website"
+        "logo design",
+        "branding",
+        "brand identity",
+        "graphic design",
+        "motion graphics"
       ],
       "k": [
-        "development"
+        "logo design",
+        "branding",
+        "brand identity",
+        "graphic design",
+        "motion graphics"
       ],
       "b": [
         {
@@ -2395,20 +2520,26 @@
         }
       ],
       "c": [
-        "cost_site",
+        "create",
         "work"
-      ]
+      ],
+      "q": "Branding & Creative"
     },
     {
       "id": "svc.e-commerce",
       "ph": [
-        "ecommerce",
-        "online store",
-        "what is included in ecommerce",
-        "ecommerce services"
+        "digital marketing",
+        "google ads",
+        "meta ads",
+        "advertising",
+        "campaign planning"
       ],
       "k": [
-        "ecommerce"
+        "digital marketing",
+        "google ads",
+        "meta ads",
+        "advertising",
+        "campaign planning"
       ],
       "b": [
         {
@@ -2417,23 +2548,24 @@
         }
       ],
       "c": [
-        "cost_store",
+        "create",
         "work"
-      ]
+      ],
+      "q": "Digital Marketing"
     },
     {
       "id": "svc.interactive-3d",
       "ph": [
-        "3d",
-        "animation",
-        "motion design",
-        "interactive website",
-        "scroll animations",
-        "3d website"
+        "social media",
+        "content creation",
+        "video editing",
+        "promotional video"
       ],
       "k": [
-        "interactive",
-        "3d"
+        "social media",
+        "content creation",
+        "video editing",
+        "promotional video"
       ],
       "b": [
         {
@@ -2442,26 +2574,26 @@
         }
       ],
       "c": [
-        "prices",
+        "create",
         "work"
-      ]
+      ],
+      "q": "Social Media & Content"
     },
     {
       "id": "svc.brand-kits-identity",
       "ph": [
-        "branding",
-        "branding services",
-        "brand identity",
-        "brand guidelines",
-        "visual identity",
-        "brand kit",
-        "what is a brand kit",
-        "logo files"
+        "seo",
+        "aeo",
+        "geo",
+        "search visibility",
+        "indexnow"
       ],
       "k": [
-        "brand",
-        "kits",
-        "identity"
+        "seo",
+        "aeo",
+        "geo",
+        "search visibility",
+        "indexnow"
       ],
       "b": [
         {
@@ -2470,27 +2602,26 @@
         }
       ],
       "c": [
-        "prices",
+        "create",
         "work"
-      ]
+      ],
+      "q": "Search & AI Visibility"
     },
     {
       "id": "svc.apps-saas",
       "ph": [
-        "saas",
-        "apps",
-        "app development",
-        "dashboard",
-        "app design",
-        "product design",
-        "web app",
-        "do you make apps",
-        "do you build apps",
-        "mobile app"
+        "ai assistant",
+        "ai agent",
+        "workflow automation",
+        "crm integration",
+        "booking automation"
       ],
       "k": [
-        "apps",
-        "saas"
+        "ai assistant",
+        "ai agent",
+        "workflow automation",
+        "crm integration",
+        "booking automation"
       ],
       "b": [
         {
@@ -2499,22 +2630,26 @@
         }
       ],
       "c": [
-        "prices",
+        "create",
         "work"
-      ]
+      ],
+      "q": "AI & Business Automation"
     },
     {
       "id": "svc.ai-automation",
       "ph": [
-        "ai",
-        "automation",
-        "ai tools",
-        "workflow automation",
-        "internal tools"
+        "xr",
+        "vr",
+        "webxr",
+        "virtual reality",
+        "immersive technology"
       ],
       "k": [
-        "ai",
-        "automation"
+        "xr",
+        "vr",
+        "webxr",
+        "virtual reality",
+        "immersive technology"
       ],
       "b": [
         {
@@ -2523,20 +2658,23 @@
         }
       ],
       "c": [
-        "prices",
-        "work"
-      ]
+        "create"
+      ],
+      "q": "XR & Immersive Technology"
     },
     {
       "id": "svc.digital-strategy",
       "ph": [
-        "strategy",
-        "digital strategy",
-        "competitor analysis",
-        "user research"
+        "creative lab",
+        "particle simulations",
+        "hand tracking",
+        "creative coding"
       ],
       "k": [
-        "strategy"
+        "creative lab",
+        "particle simulations",
+        "hand tracking",
+        "creative coding"
       ],
       "b": [
         {
@@ -2545,9 +2683,9 @@
         }
       ],
       "c": [
-        "prices",
-        "work"
-      ]
+        "create"
+      ],
+      "q": "Creative Lab & Research"
     },
     {
       "id": "process.step.1",
@@ -2723,6 +2861,137 @@
       ],
       "c": [
         "process"
+      ]
+    },
+    {
+      "id": "svc.physical-ai-robotics",
+      "q": "Physical AI & Robotics",
+      "ph": [
+        "physical ai",
+        "robotics",
+        "robot integration",
+        "humanoid robots"
+      ],
+      "k": [
+        "physical ai",
+        "robotics",
+        "robot integration",
+        "humanoid robots"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "physical-ai-robotics"
+        }
+      ],
+      "c": [
+        "create"
+      ]
+    },
+    {
+      "id": "svc.industrial-engineering",
+      "q": "Industrial Engineering & Automation",
+      "ph": [
+        "industrial automation",
+        "mechatronics",
+        "plc",
+        "scada",
+        "industrial engineering"
+      ],
+      "k": [
+        "industrial automation",
+        "mechatronics",
+        "plc",
+        "scada",
+        "industrial engineering"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "industrial-engineering"
+        }
+      ],
+      "c": [
+        "create"
+      ]
+    },
+    {
+      "id": "svc.industrial-software",
+      "q": "Industrial Software & Digital Twins",
+      "ph": [
+        "digital twin",
+        "machine vision",
+        "industrial software",
+        "predictive maintenance",
+        "industrial iot"
+      ],
+      "k": [
+        "digital twin",
+        "machine vision",
+        "industrial software",
+        "predictive maintenance",
+        "industrial iot"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "industrial-software"
+        }
+      ],
+      "c": [
+        "create"
+      ]
+    },
+    {
+      "id": "svc.systems-lifecycle",
+      "q": "Systems Integration & Lifecycle Services",
+      "ph": [
+        "systems integration",
+        "commissioning",
+        "industrial maintenance",
+        "robot deployment"
+      ],
+      "k": [
+        "systems integration",
+        "commissioning",
+        "industrial maintenance",
+        "robot deployment"
+      ],
+      "b": [
+        {
+          "t": "service",
+          "id": "systems-lifecycle"
+        }
+      ],
+      "c": [
+        "create"
+      ]
+    },
+    {
+      "id": "faq.16",
+      "q": "Do you currently offer robotics or industrial engineering services?",
+      "ph": [
+        "do you offer industrial services",
+        "can you install robots",
+        "industrial engineering available"
+      ],
+      "k": [
+        "industrial",
+        "robotics"
+      ],
+      "b": [
+        {
+          "t": "p",
+          "text": "Physical AI, robotics and industrial systems integration are part of our future vision, not currently offered commercial engineering services."
+        },
+        {
+          "t": "from",
+          "page": "Future Vision",
+          "url": {
+            "r": "what-we-create",
+            "f": "future-vision"
+          }
+        }
       ]
     }
   ],

@@ -25,7 +25,7 @@ Baseline: Phase 4 on `diluxlane/Zyberlane-Website-New`.
 
 ## Public-content acceptance
 
-- Brand title: **Zyberlane — Creative Technology Company**.
+- Brand title: **Zyberlane — Technology & Transformation Company**.
 - Approved slogan: **Built Beyond Boundaries.** (exact spelling/punctuation).
 - Retain approved monochrome palette and original structure/motion; do not restyle as part of content cleanup.
 - Reconcile legacy global footer branding `Creative Studios`, `BUILT DIFFERENT. BUILT FOR YOU.` with approved copy, without making unapproved changes to other creative headings.
