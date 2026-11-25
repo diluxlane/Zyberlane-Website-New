@@ -1,0 +1,259 @@
+{
+  "schema": "zyberlane-homepage-media-inventory/v1",
+  "auditDate": "2026-11-25",
+  "baseline": "386bd0e7cde28b2874b652b400f2f605ffac1340",
+  "status": "B1 source audit complete; B2 media capture/clearance pending",
+  "scope": "Public project candidates only. Private/internal projects, dropped game, reference fork and planned umbrella lab excluded from candidate media. No private project metadata recorded.",
+  "verification": "Repository tree and source documents inspected; selected implementation files checked. Configured URLs are not fresh uptime or device tests. No new screenshots or videos captured. Existing Divine Tattoo preview visually inspected.",
+  "projects": [
+    {
+      "id": "divine-tattoo",
+      "name": "Divine Tattoo",
+      "category": "client",
+      "source": "diluxlane/Divine-Tattoo-Website",
+      "sourceTree": "8fd93867d022942c3d0ca4dca735a922e4df89c6",
+      "configuredUrl": "https://divinetattoo.vercel.app",
+      "evidence": [
+        "README.md",
+        "index.html",
+        "admin/dashboard.js"
+      ],
+      "scope": "Responsive studio site, portfolio gallery and implemented Supabase CMS workflow; live backend not tested.",
+      "media": [
+        {
+          "source": "diluxlane/Zyberlane-Website/assets/divine-tattoo-preview.jpg",
+          "gitBlob": "e7e7119462561f9efbecc067c2537998768d0867",
+          "kind": "existing portrait website preview",
+          "state": "visually inspected; client/media permission gate"
+        }
+      ],
+      "capture": [
+        "Public homepage desktop and mobile",
+        "Public gallery only if approved",
+        "CMS diagram using synthetic data, not actual admin/customer records"
+      ],
+      "priority": 1,
+      "eligibleAfter": "Confirm client marketing reuse of existing screenshot and included imagery; capture current public site; verify URL.",
+      "slots": [
+        "hero",
+        "laptop",
+        "web-service",
+        "footer"
+      ],
+      "destination": "/projects/aivinci/"
+    },
+    {
+      "id": "zyberlane-xr",
+      "name": "Zyberlane XR",
+      "category": "original-experimental",
+      "source": "diluxlane/Zyberlane-XR",
+      "sourceTree": "d3cd796bbc87f136d9ee4425a221faae833404bc",
+      "configuredUrl": "https://zyberlane-xr.vercel.app/",
+      "evidence": [
+        "README.md",
+        "PLAYER-FIRST-RELEASE.md",
+        "app.js"
+      ],
+      "scope": "Browser video player with normal/180/360 modes, stereo viewing and experimental orientation controls; hardware acceptance pending.",
+      "capture": [
+        "Player interface with original or cleared synthetic video",
+        "Normal/360 mode transitions",
+        "Optional stereo split view without claiming sensor stability"
+      ],
+      "priority": 2,
+      "eligibleAfter": "Capture actual current build; use owned/cleared footage; verify device limitations.",
+      "slots": [
+        "hero",
+        "laptop",
+        "innovation",
+        "footer"
+      ],
+      "destination": "/projects/zyberlane-xr/"
+    },
+    {
+      "id": "my-3d-world",
+      "name": "My 3D World",
+      "category": "original-experimental",
+      "source": "diluxlane/3Dworld",
+      "sourceTree": "4bb8b0e2b3a7993614c809d7613001da49516e56",
+      "configuredUrl": "https://3-dworld.vercel.app",
+      "evidence": [
+        "README.md",
+        "docs/QA.md",
+        "src/catalog.ts",
+        "src/main.ts"
+      ],
+      "scope": "Six navigable Three.js locations including hub, Earth, valley, field, sculpture and gesture studio. Historical desktop/mobile emulation QA; physical motion and performance pending.",
+      "capture": [
+        "Observatory",
+        "Edge of Earth",
+        "Portal Valley",
+        "Starlight Field",
+        "Particle Sculpture Room",
+        "Gesture studio using manual controls or synthetic input"
+      ],
+      "priority": 3,
+      "eligibleAfter": "Capture actual scenes from current build; attribute Natural Earth coastline data and relevant dependencies; no photorealism or industrial digital-twin claims.",
+      "slots": [
+        "hero",
+        "laptop",
+        "innovation",
+        "footer"
+      ],
+      "destination": "new reviewable project entry or existing innovation anchor"
+    },
+    {
+      "id": "particle-lab",
+      "name": "Zyberlane Particle Lab",
+      "category": "original-experimental",
+      "source": "diluxlane/Zyberlane-Particle-Lab",
+      "sourceTree": "dd360ec426b906802bb7675f092955ab6022257c",
+      "configuredUrl": null,
+      "evidence": [
+        "README.md",
+        "docs/QA.md",
+        "src/main.js"
+      ],
+      "scope": "Six elastic mesh forms, worker simulation, orientation/touch, camera landmark mapping and stereo view; approximate depth and unverified physical performance.",
+      "capture": [
+        "Mesh forms and motion using manual input",
+        "Synthetic gesture or landmark overlay; no real camera footage needed"
+      ],
+      "priority": 4,
+      "eligibleAfter": "Build or verify an HTTPS preview, capture actual output, retain experimental label and reference attribution.",
+      "slots": [
+        "hero",
+        "laptop",
+        "innovation",
+        "footer"
+      ],
+      "destination": "new reviewable experiment entry or existing innovation anchor"
+    },
+    {
+      "id": "project-01",
+      "name": "Project 01 — RÊVERIE",
+      "category": "authorized-design-study",
+      "source": "diluxlane/project1",
+      "sourceTree": "ae35f26a68826940e9bcea28c5a647dc47c93e3c",
+      "configuredUrl": "https://project1-diluxln.vercel.app",
+      "evidence": [
+        "README.md",
+        "PROJECT-01.md",
+        "src/app/page.tsx"
+      ],
+      "scope": "Adapted cinematic Next.js website, not original design or client work.",
+      "capture": [
+        "Desktop editorial interface",
+        "Scroll-motion excerpt only when underlying media reuse cleared"
+      ],
+      "priority": 5,
+      "eligibleAfter": "Confirm rights for screenshots containing source imagery/film and required attribution; configured URL conflicts with README's not-deployed note, verify deployment.",
+      "slots": [
+        "hero",
+        "laptop",
+        "footer"
+      ],
+      "destination": "design study entry pending review"
+    },
+    {
+      "id": "founder-profile",
+      "name": "Personal link hub",
+      "category": "personal-project",
+      "source": "diluxlane/Dilux-Lane-Profile",
+      "sourceTree": "2d1c3ed396ed31fe67be4cbe8ca25a787c36b14e",
+      "configuredUrl": "https://dilux-lane-profile.vercel.app",
+      "evidence": [
+        "README.md"
+      ],
+      "scope": "Interactive orbit-navigation personal profile.",
+      "capture": [
+        "Interface-only crop or approved scene artwork; avoid personal portrait/contact details unless separately authorized"
+      ],
+      "priority": 6,
+      "eligibleAfter": "Separate founder permission for public company showcase; verify artwork provenance and live rendering.",
+      "slots": [
+        "optional-hero",
+        "optional-footer"
+      ],
+      "destination": "optional design/interaction study"
+    },
+    {
+      "id": "creative-portfolio",
+      "name": "Creative portfolio",
+      "category": "authorized-design-study",
+      "source": "diluxlane/Dilux-Lane-Portfolio",
+      "sourceTree": "1e1a0a72b9327794b1d2f6283f620da0fafc5cad",
+      "configuredUrl": "https://dilux-lane-portfolio.vercel.app",
+      "evidence": [
+        "docs/content-migration.md"
+      ],
+      "scope": "Adapted personal editing portfolio; selected work video cards awaiting media per migration record.",
+      "capture": [
+        "Interface-only design study after permissions; no invented edited-work samples"
+      ],
+      "priority": 7,
+      "eligibleAfter": "Verify latest content, rights and founder approval.",
+      "slots": [
+        "optional-hero"
+      ],
+      "destination": "design study pending review"
+    },
+    {
+      "id": "developer-portfolio",
+      "name": "Developer portfolio",
+      "category": "authorized-design-study",
+      "source": "diluxlane/Dilux-Lane-Dev-Portfolio",
+      "sourceTree": "6e2111a534c1a64a867f268e0330b5fc83675f7c",
+      "configuredUrl": "https://dilux-lane-dev-portfolio.vercel.app",
+      "evidence": [
+        "README.md",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "scope": "Adapted motion-heavy portfolio with code-native diagrams; Daniel Kiss design attribution required. Diagrams and animated clips are illustrations, not product recordings.",
+      "capture": [
+        "Use only verified owned diagrams with explicit illustration labels if appropriate"
+      ],
+      "priority": 8,
+      "eligibleAfter": "Confirm asset-specific provenance and company reuse; do not relabel architecture visuals as screenshots.",
+      "slots": [
+        "optional-service"
+      ],
+      "destination": "optional design study"
+    }
+  ],
+  "mediaPolicy": {
+    "current": "No new assets cleared or copied by this audit.",
+    "images": "Capture actual public interfaces at desktop and mobile widths, crop to existing card aspect ratios, export responsive WebP; log source tree, capture date, dimensions, rights and hash.",
+    "videos": "Use actual project recordings or original conceptual artwork explicitly identified as such; muted short loops, responsive MP4, poster, reduced-motion fallback; no camera frames, customer data or third-party media without permission.",
+    "rules": [
+      "Never call a design adaptation an original design or client project",
+      "Never claim a prototype is production ready",
+      "Never use private data, admin screens with real records, or unapproved personal portraits",
+      "Reuse a small verified library rather than fabricating 19 projects",
+      "Do not restore inherited portfolio media as Zyberlane client work"
+    ]
+  },
+  "homepage": {
+    "uniquePlaceholders": 131,
+    "hero": {
+      "images": 40,
+      "videos": 27,
+      "uniqueDestinations": 20,
+      "plan": "Use client and experimental projects first, repeat crops and truthful links rather than inventing new projects; hold design studies until clearance."
+    },
+    "laptop": {
+      "images": 1,
+      "videos": 3,
+      "plan": "Create original showreel from approved captures, not inherited launch film."
+    },
+    "services": {
+      "images": 23,
+      "plan": "Use approved project captures where directly relevant; create original labeled illustrations for unsupported categories."
+    },
+    "footer": {
+      "images": 47,
+      "plan": "Reuse approved hero/project library."
+    }
+  },
+  "next": "B2: capture and clear first four project media sets, then replace hero placeholders in focused review PR. Keep existing animation markup, responsive variants and accessibility. Do not merge or deploy production automatically."
+}
