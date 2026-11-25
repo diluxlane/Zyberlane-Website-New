@@ -261,6 +261,18 @@ if (/\b(full|last|sur) ?name\b|\bsurname\b/.test(s)) return 'nodata.fullname';
 const inject = /\b(ignore|disregard|forget|override)\b.*\b(rules?|instructions?|prompt)\b|\bsystem prompt\b|\bjailbreak\b|\bpretend\b|\bapi ?keys?\b|\bpasswords?\b|\btokens?\b|\bscript\b|\b(reply|respond|answer|write) (in|only in|using) (capitals|caps|uppercase|upper case|all caps)\b|\bsay (it|that)\b|\brepeat after\b|\bdeveloper mode\b/.test(s);
 const disc = has('discount') || /\b(\d+ percent|for less|less money|best price|lowest price|cheap|special price|do it for|for just|for only|reduce the price)\b/.test(s);
 if (inject) return disc ? 'price.discount' : 'meta.off_topic';
+// Route future industrial requests before price or booking logic.
+if (/\b(digital twins?|machine vision|industrial software|industrial iot|predictive maintenance)\b/.test(s)) return 'svc.industrial-software';
+if (/\b(industrial automation|mechatronics|plc|scada|industrial engineering|smart factor(?:y|ies))\b/.test(s)) return 'svc.industrial-engineering';
+if (/\b(commissioning|industrial maintenance|robot deployment|systems integration)\b/.test(s)) return 'svc.systems-lifecycle';
+if (/\b(physical ai|robotics|robots?|humanoids?)\b/.test(s)) return 'svc.physical-ai-robotics';
+if (/\b(creative lab|particle simulations?|hand tracking|creative coding)\b/.test(s)) return 'svc.digital-strategy';
+if (/\b(webxr|xr|vr|virtual reality|immersive technology)\b/.test(s)) return 'svc.ai-automation';
+if (/\b(logo design|branding|brand identity|graphic design|motion graphics)\b/.test(s) && !c.has('PRICE')) return 'svc.website-development';
+if (/\b(social media|content creation|video editing|promotional videos?)\b/.test(s) && !c.has('PRICE')) return 'svc.interactive-3d';
+if (/\b(digital marketing|google ads|meta ads|advertising|campaign planning)\b/.test(s) && !c.has('PRICE')) return 'svc.e-commerce';
+if (/\b(seo|aeo|geo|search visibility|indexnow)\b/.test(s) && !c.has('PRICE')) return 'svc.brand-kits-identity';
+if (/\b(ai assistants?|ai agents?|workflow automation|crm integration|booking automation)\b/.test(s) && !c.has('PRICE')) return 'svc.apps-saas';
 if ((ent.cur || /\bcurrenc/.test(s)) && /\b(pay|paid|paying|payment|payments|invoice|invoices|invoiced|invoicing|bill|billed|billing|accept|accepted|transfer|wire)\b|\bcharges? (me |us )?in\b/.test(s)
 && !/\bhow_much\b|\b(price|prices|cost|costs|quote)\b/.test(s) && !(a.sl && a.sl.budget) && !AMT.test(s)) return 'nodata.payment';
 if (has('hosting')) return 'nodata.hosting';
@@ -491,7 +503,7 @@ return [{ b: budgetReply(), c: [] }].concat(st.step ? [ask(st.step)] : next());
 'price.currency': () => [{ b: [P(C.no_prices)], c: chips(['quote', 'book']) }],
 'price.maintenance': () => [{ b: [{ t: 'faq', i: 9 }, P(C.maintenance)], c: chips(['ask_Zyberlane', 'prices']) }],
 'time.timeline': () => [{ b: [P(C.timeline)], c: chips(['process', 'quote']) }],
-'svc.overview': () => [{ b: [P(kb().create.title, 'CREATE.hero.title'), { t: 'faq', i: 4 }],
+'svc.overview': () => [{ b: [P(kb().create.title, 'CREATE.hero.title'), { t: 'faq', i: 5 }],
 c: kb().services.map(s => ({ l: s.name, a: { i: 'svc.' + s.id } })) }],
 'work.overview': () => work('all', true),
 'work.filter.client': () => work('client'), 'work.filter.ecommerce': () => work('ecommerce'), 'work.filter.saas': () => work('saas'),

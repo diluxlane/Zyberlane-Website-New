@@ -7,6 +7,10 @@ on:
       - "dist/assets/brand/*.svg"
       - "tests/brand-identity.test.mjs"
       - "tests/editorial-media.test.mjs"
+      - "tests/capability-architecture.test.mjs"
+      - "brand/**"
+      - "dist/assets/chat-kb.json"
+      - "dist/assets/chat/chat.js"
       - "media-replacement-manifest.json"
       - "dist/assets/agency/**"
       - "dist/assets/believe/**"
@@ -36,4 +40,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - run: node --test tests/brand-identity.test.mjs tests/editorial-media.test.mjs
+      - run: node --check dist/assets/chat/chat.js
+      - run: node --test tests/brand-identity.test.mjs tests/editorial-media.test.mjs tests/capability-architecture.test.mjs

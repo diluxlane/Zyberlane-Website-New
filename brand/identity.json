@@ -1,8 +1,8 @@
 {
   "schema": "zyberlane-identity/v1",
-  "version": "2026-11-15",
+  "version": "2026-11-25",
   "parentBrand": "ZYBERLANE",
-  "descriptor": "CREATIVE TECHNOLOGY COMPANY",
+  "descriptor": "TECHNOLOGY & TRANSFORMATION COMPANY",
   "tagline": "Built Beyond Boundaries.",
   "meaning": "Brand positioning only; does not imply incorporated or registered-company status.",
   "originalWordmark": "zyberlane-wordmark.svg",
@@ -29,7 +29,7 @@
   "composition": [
     "ZL icon",
     "ZYBERLANE wordmark",
-    "CREATIVE TECHNOLOGY COMPANY descriptor",
+    "TECHNOLOGY & TRANSFORMATION COMPANY descriptor",
     "optional / PRODUCT suffix",
     "Built Beyond Boundaries. tagline"
   ],
@@ -37,5 +37,7 @@
     "ZYBERLANE / XR",
     "ZYBERLANE / LABS"
   ],
-  "integrity": "Never invent projects, reviews, clients, media ownership, legal registration or accessibility test evidence."
+  "integrity": "Never invent projects, reviews, clients, media ownership, legal registration or accessibility test evidence.",
+  "supportingLine": "From Brand Identity to Physical Intelligence.",
+  "capabilities": "brand/capabilities.json"
 }

@@ -1,12 +1,12 @@
 # Zyberlane — one umbrella brand system
-Version: 1.0 — 2026-11-15
+Version: 2.0 — 2026-11-25
 
 ## Source of truth
 
 **Master brand:** ZYBERLANE  
-**Descriptor:** CREATIVE TECHNOLOGY COMPANY  
+**Descriptor:** TECHNOLOGY & TRANSFORMATION COMPANY  
 **Tagline:** Built Beyond Boundaries.  
-**Short company label:** Zyberlane — Creative Technology Company  
+**Short company label:** Zyberlane — Technology & Transformation Company  
 **Confirmed operating facts:** Sri Lanka; unregistered independent business. "Company" here describes brand positioning and does **not** represent a registered corporation, incorporation or claimed legal status.
 
 ## Visual signature
@@ -26,7 +26,7 @@ Canonical artifacts:
 
 ```
 [ ZL ICON ]  Z Y B E R L A N E    / PRODUCT
-             CREATIVE TECHNOLOGY COMPANY
+             TECHNOLOGY & TRANSFORMATION COMPANY
 
              Built Beyond Boundaries.
 ```
@@ -67,7 +67,7 @@ There was **no accessible `diluxlane/Zyberlane-Creative-Lab` repository** when t
 For future `labs.zyberlane.com` and independent products:
 
 1. Reuse exact ZL icon and `zyberlane-wordmark.svg` (or `zyberlane-lockup.svg`). Product name appears as a suffix: `/ LABS`, `/ XR`, etc.
-2. Keep **CREATIVE TECHNOLOGY COMPANY** descriptor with the ZYBERLANE wordmark in headers, opening sections and footers, and **Built Beyond Boundaries.** in the footer.
+2. Keep **TECHNOLOGY & TRANSFORMATION COMPANY** descriptor with the ZYBERLANE wordmark in headers, opening sections and footers, and **Built Beyond Boundaries.** in the footer.
 3. Reuse tokens and standard layout structure; use restrained hover/reveal patterns with real `prefers-reduced-motion` support. Do not transplant heavy marketing intro code into performance-sensitive immersive apps.
 4. Respect route-local URLs, noindex on development previews, privacy and device permission boundaries, and all licensed asset attribution.
 5. Verify branding and functionality on actual devices. Do not claim a future experiment is already shipped.
@@ -79,3 +79,7 @@ For future `labs.zyberlane.com` and independent products:
 Design implementation is **PR-only until owner review**. This brand update does not approve public launch, alter legal registration claims, finalize imagery or testimonials, change contact backend, or deploy new domains. The parent site and XR need independent visual/browser QA following branding updates.
 
 Brand consistency tests: `node --test tests/brand-identity.test.mjs` in the company repository.
+
+## Permanent positioning and governance
+
+The owner approved the new descriptor, expanded commercial enquiry scope and twelve-category capability architecture on 2026-11-25. The wordmark, icon, domain and tagline are unchanged. Supporting line: From Brand Identity to Physical Intelligence. `brand/capabilities.json` is the internal source of truth. Future industrial capabilities are not commercial offers; activation depends on qualified personnel, safety, legal and delivery readiness. Migrate product identities only via their own reviewed changes. Do not publish private founder education or finances.

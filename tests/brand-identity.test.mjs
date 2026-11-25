@@ -27,7 +27,7 @@ test("standalone wordmark is vector, original and independent of loaded fonts",(
   assert.equal((word.match(/data-glyph="/g)||[]).length,9);
   assert.match(word, /ZYBERLANE/);
   assert.doesNotMatch(word, /<text[^>]*>ZYBERLANE/);
-  assert.match(lock,/CREATIVE TECHNOLOGY COMPANY/);
+  assert.match(lock,/TECHNOLOGY &amp; TRANSFORMATION COMPANY/);
   assert.match(originalMark, /viewBox="0 0 100 100"/);
 });
 test("header, intro, footer, identity and tagline agree on every route",()=>{
@@ -36,16 +36,17 @@ test("header, intro, footer, identity and tagline agree on every route",()=>{
   for(const file of files){
     const page=path.relative(root,file);
     const html=fs.readFileSync(file,"utf8");
-    assert.match(html, /<meta name="application-name" content="Zyberlane \| Creative Technology Company">/,page);
+    assert.match(html, /<meta name="application-name" content="Zyberlane \| Technology &amp; Transformation Company">/,page);
     assert.match(html, /<span class="zl-header-type">/,page);
     assert.match(html, /class="zl-intro-word"/,page);
-    assert.match(html, /class="zl-intro-company">CREATIVE TECHNOLOGY COMPANY/,page);
+    assert.match(html, /class="zl-intro-company">TECHNOLOGY &amp; TRANSFORMATION COMPANY/,page);
     assert.match(html, /class="zl-footer-mark"/,page);
-    assert.match(html, /CREATIVE TECHNOLOGY COMPANY/,page);
+    assert.match(html, /TECHNOLOGY &amp; TRANSFORMATION COMPANY/,page);
     assert.match(html, /class="ft-bar__motto">BUILT BEYOND BOUNDARIES\./,page);
     assert.match(html, /class="ft-bar__line">Built Beyond Boundaries\./,page);
     assert.doesNotMatch(html, /BUILT DIFFERENT\. BUILT FOR YOU\./,page);
     assert.doesNotMatch(html, /Digital experiences, built around you\./,page);
+    assert.doesNotMatch(html, /Creative Technology Company/i,page);
     assert.doesNotMatch(html, /Creative(?:\s|&nbsp;|\u00a0)+Studios/i,page);
     assert.doesNotMatch(html, /textlength="1474"/i,page);
     const intro=svg(html,"zl-intro-word");
