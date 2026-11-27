@@ -33,7 +33,8 @@
     "dist/assets/brand-kit/graphic-grid.svg",
     "dist/assets/brand-kit/monogram-motion.lottie.json",
     "dist/assets/brand-kit/zyberlane-monogram.obj",
-    "dist/assets/brand-kit/zyberlane-brand-book.pdf"
+    "dist/assets/brand-kit/zyberlane-brand-book.pdf",
+    "dist/assets/brand-kit/zyberlane-brand-kit.zip"
   ],
   "visibility": "public-safe only",
   "pending": [
@@ -52,5 +53,11 @@
       4096
     ],
     "circleSafe": true
+  },
+  "bundle": {
+    "path": "dist/assets/brand-kit/zyberlane-brand-kit.zip",
+    "entries": 29,
+    "format": "ZIP, store method",
+    "contents": "28 individual public-safe assets and README; excludes route CSS and JS"
   }
 }
