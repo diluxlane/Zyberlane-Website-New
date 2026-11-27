@@ -1,3 +1,3 @@
-# social media
+# Social media
 
-SVG avatar, square, portrait, story and banner templates are available in public exports; never invent account handles.
+The public exports contain canonical SVG avatars, 1080px and 4096px PNGs, inverse 1080px PNG, and editable square/portrait/story/banner templates. Use the square PNG without zoom; platform circle cropping is safe. Do not invent social handles.

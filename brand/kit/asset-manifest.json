@@ -21,15 +21,25 @@
     "dist/assets/brand-kit/social-banner.svg",
     "dist/assets/brand-kit/motion-poster.svg",
     "dist/assets/brand-kit/brand-kit.css",
-    "dist/assets/brand-kit/brand-kit.js"
+    "dist/assets/brand-kit/brand-kit.js",
+    "dist/assets/brand-kit/avatar-1080.png",
+    "dist/assets/brand-kit/avatar-4096.png",
+    "dist/assets/brand-kit/avatar-inverse-1080.png"
   ],
   "visibility": "public-safe only",
   "pending": [
-    "PNG high-resolution exports",
     "formal PDF book",
     "3D source and video exports",
     "physical production templates",
     "cross-repository migration",
     "browser QA"
-  ]
+  ],
+  "raster": {
+    "method": "Canonical vector paths; four vertical subpixel samples and fractional horizontal coverage; lossless grayscale sRGB PNG.",
+    "sizes": [
+      1080,
+      4096
+    ],
+    "circleSafe": true
+  }
 }
