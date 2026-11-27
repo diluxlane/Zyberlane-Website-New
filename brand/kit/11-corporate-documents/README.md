@@ -1,3 +1,3 @@
-# corporate documents
+# Corporate documents
 
-Use the lockup, descriptor, approved typography and neutral palette; editable stationery and proposal templates pending.
+Editable A4 letterhead and two-sided card SVG concepts use only verified public brand identity and site contact fields. Printer must confirm bleed, ICC/CMYK and physical proofs. Invoice, proposal and presentation production templates remain future work.

@@ -1,3 +1,3 @@
-# motion
+# Motion
 
-Finite CSS-based monogram entrance in the brand center; reduced-motion override; MP4/WebM/Lottie and sonic work pending.
+Brand center includes finite reduced-motion-safe CSS playback. The public export monogram-motion.lottie.json is an original 3-second vector animation source; Lottie player compatibility has not yet been visually verified. MP4, WebM and sonic identity remain pending.

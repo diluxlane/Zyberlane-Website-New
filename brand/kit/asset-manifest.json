@@ -24,15 +24,26 @@
     "dist/assets/brand-kit/brand-kit.js",
     "dist/assets/brand-kit/avatar-1080.png",
     "dist/assets/brand-kit/avatar-4096.png",
-    "dist/assets/brand-kit/avatar-inverse-1080.png"
+    "dist/assets/brand-kit/avatar-inverse-1080.png",
+    "dist/assets/brand-kit/product-xr.svg",
+    "dist/assets/brand-kit/product-labs.svg",
+    "dist/assets/brand-kit/business-card-front.svg",
+    "dist/assets/brand-kit/business-card-back.svg",
+    "dist/assets/brand-kit/letterhead.svg",
+    "dist/assets/brand-kit/graphic-grid.svg",
+    "dist/assets/brand-kit/monogram-motion.lottie.json",
+    "dist/assets/brand-kit/zyberlane-monogram.obj",
+    "dist/assets/brand-kit/zyberlane-brand-book.pdf"
   ],
   "visibility": "public-safe only",
   "pending": [
-    "formal PDF book",
     "3D source and video exports",
     "physical production templates",
     "cross-repository migration",
-    "browser QA"
+    "browser QA",
+    "PDF visual QA",
+    "Lottie runtime verification",
+    "OBJ triangulation/import verification"
   ],
   "raster": {
     "method": "Canonical vector paths; four vertical subpixel samples and fractional horizontal coverage; lossless grayscale sRGB PNG.",

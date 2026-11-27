@@ -1,3 +1,3 @@
-# product identities
+# Product identity
 
-Use parent mark/wordmark with / XR or / LABS suffix; actual product rollout is separate.
+XR and LABS suffix lockups are included. No product repository has been modified. Consume pinned exports after owner approval, preserve product-specific UX, and verify each repository independently.
