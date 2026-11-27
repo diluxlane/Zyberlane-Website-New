@@ -1,0 +1,14 @@
+:root{
+  --zl-absolute-black: #000000;
+  --zl-void: #060606;
+  --zl-obsidian: #0D0D0D;
+  --zl-graphite: #141414;
+  --zl-carbon: #1C1C1C;
+  --zl-deep-steel: #4B4B4B;
+  --zl-steel: #8B8B8B;
+  --zl-silver: #969696;
+  --zl-soft-white: #F4F4F2;
+  --zl-pure-white: #FFFFFF;
+  --zl-ease: cubic-bezier(.22,1,.36,1);
+  --zl-font: 'Inter Tight', system-ui, sans-serif;
+}

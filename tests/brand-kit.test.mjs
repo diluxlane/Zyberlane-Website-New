@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8');
+const base='dist/assets/brand-kit/';
+const original=read('dist/assets/zyberlane/logo-white.svg');
+const paths=[...original.matchAll(/<path d="([^"]+)"/g)].map(m=>m[1]);
+const page=read('dist/brand-kit/index.html');
+test('canonical mark, lockups and avatar reuse all four paths',()=>{assert.equal(paths.length,4);for(const f of ['mark-white.svg','mark-black.svg','lockup-white.svg','lockup-black.svg','avatar-white-on-black.svg','geometry.svg'])for(const p of paths)assert.ok(read(base+f).includes(p),f);for(const p of paths)assert.ok(read('dist/assets/brand/zyberlane-lockup.svg').includes(p));});
+test('avatar geometry is centered, 54 percent wide and circle-safe',()=>{const g=JSON.parse(read('brand/kit/geometry.json'));const a=g.avatar;const c=paths.flatMap(p=>[...p.matchAll(/(?:M|L)([\\d.]+) ([\\d.]+)/g)].map(m=>[+m[1]*a.scale+a.translate[0],+m[2]*a.scale+a.translate[1]]));const xs=c.map(p=>p[0]),ys=c.map(p=>p[1]);assert.ok(Math.abs(Math.max(...xs)-Math.min(...xs)-54)<1e-8);assert.ok(Math.abs((Math.max(...xs)+Math.min(...xs))/2-50)<1e-8);assert.ok(Math.abs((Math.max(...ys)+Math.min(...ys))/2-50)<1e-8);assert.ok(c.every(([x,y])=>Math.hypot(x-50,y-50)<50));});
+test('all page assets exist, core sections and preview guards present',()=>{for(const m of page.matchAll(/(?:src|href)="(\\.\\.\\/assets\\/brand-kit\\/[^"]+)"/g))assert.ok(fs.existsSync(new URL('../dist/brand-kit/'+m[1],import.meta.url)),m[1]);for(const id of ['foundation','logos','geometry','colors','typography','motion','applications','products','downloads'])assert.ok(page.includes('id="'+id+'"'));assert.match(page,/noindex, nofollow, noarchive/);assert.match(read(base+'brand-kit.css'),/prefers-reduced-motion/);assert.match(read('dist/index.html'),/brand-kit\\/index.html/);});
+test('token definitions agree',()=>{assert.deepEqual(JSON.parse(read('brand/kit/tokens.json')),JSON.parse(read(base+'tokens.json')));const t=JSON.parse(read(base+'tokens.json'));assert.equal(t.color['absolute-black'],'#000000');assert.equal(t.color['pure-white'],'#FFFFFF');});

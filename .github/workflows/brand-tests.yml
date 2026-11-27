@@ -9,6 +9,8 @@ on:
       - "tests/editorial-media.test.mjs"
       - "tests/capability-architecture.test.mjs"
       - "brand/**"
+      - "dist/assets/brand-kit/**"
+      - "tests/brand-kit.test.mjs"
       - "dist/assets/chat-kb.json"
       - "dist/assets/chat/chat.js"
       - "media-replacement-manifest.json"
@@ -41,4 +43,4 @@ jobs:
         with:
           node-version: "22"
       - run: node --check dist/assets/chat/chat.js
-      - run: node --test tests/brand-identity.test.mjs tests/editorial-media.test.mjs tests/capability-architecture.test.mjs
+      - run: node --test tests/brand-identity.test.mjs tests/editorial-media.test.mjs tests/capability-architecture.test.mjs tests/brand-kit.test.mjs
