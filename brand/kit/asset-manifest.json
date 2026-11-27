@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0-draft.1",
+  "sourceCommit": "3207d2cf9b5c0da49d7800ae6b66777f50a7cf66",
+  "canonicalMark": "dist/assets/zyberlane/logo-white.svg",
+  "canonicalWordmark": "dist/assets/brand/zyberlane-wordmark.svg",
+  "exports": [
+    "dist/assets/brand-kit/mark-white.svg",
+    "dist/assets/brand-kit/mark-black.svg",
+    "dist/assets/brand-kit/wordmark-white.svg",
+    "dist/assets/brand-kit/wordmark-black.svg",
+    "dist/assets/brand-kit/lockup-white.svg",
+    "dist/assets/brand-kit/lockup-black.svg",
+    "dist/assets/brand-kit/avatar-white-on-black.svg",
+    "dist/assets/brand-kit/avatar-black-on-white.svg",
+    "dist/assets/brand-kit/geometry.svg",
+    "dist/assets/brand-kit/tokens.json",
+    "dist/assets/brand-kit/tokens.css",
+    "dist/assets/brand-kit/social-square.svg",
+    "dist/assets/brand-kit/social-portrait.svg",
+    "dist/assets/brand-kit/social-story.svg",
+    "dist/assets/brand-kit/social-banner.svg",
+    "dist/assets/brand-kit/motion-poster.svg",
+    "dist/assets/brand-kit/brand-kit.css",
+    "dist/assets/brand-kit/brand-kit.js",
+    "dist/assets/brand-kit/avatar-1080.png",
+    "dist/assets/brand-kit/avatar-4096.png",
+    "dist/assets/brand-kit/avatar-inverse-1080.png",
+    "dist/assets/brand-kit/product-xr.svg",
+    "dist/assets/brand-kit/product-labs.svg",
+    "dist/assets/brand-kit/business-card-front.svg",
+    "dist/assets/brand-kit/business-card-back.svg",
+    "dist/assets/brand-kit/letterhead.svg",
+    "dist/assets/brand-kit/graphic-grid.svg",
+    "dist/assets/brand-kit/monogram-motion.lottie.json",
+    "dist/assets/brand-kit/zyberlane-monogram.obj",
+    "dist/assets/brand-kit/zyberlane-brand-book.pdf",
+    "dist/assets/brand-kit/zyberlane-brand-kit.zip"
+  ],
+  "visibility": "public-safe only",
+  "pending": [
+    "3D source and video exports",
+    "physical production templates",
+    "cross-repository migration",
+    "browser QA",
+    "PDF visual QA",
+    "Lottie runtime verification",
+    "OBJ triangulation/import verification"
+  ],
+  "raster": {
+    "method": "Canonical vector paths; four vertical subpixel samples and fractional horizontal coverage; lossless grayscale sRGB PNG.",
+    "sizes": [
+      1080,
+      4096
+    ],
+    "circleSafe": true
+  },
+  "bundle": {
+    "path": "dist/assets/brand-kit/zyberlane-brand-kit.zip",
+    "entries": 29,
+    "format": "ZIP, store method",
+    "contents": "28 individual public-safe assets and README; excludes route CSS and JS"
+  }
+}

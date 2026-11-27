@@ -11,7 +11,7 @@ function scan(dir) {
     return e.isDirectory() ? scan(full) : (e.name.endsWith(".html") ? [full] : []);
   });
 }
-const files=scan(root).sort();
+const files=scan(root).filter(f=>!f.endsWith(path.join("brand-kit","brand-book.html"))).sort();
 function svg(html, cssClass) {
   return html.match(new RegExp('<svg class="' + cssClass + '"[\\s\\S]*?<\\/svg>'))?.[0];
 }
@@ -20,7 +20,7 @@ function pathData(vector) {
 }
 const originalMark=read("assets/zyberlane/logo-white.svg");
 const sourceGlyphs=pathData(read("assets/brand/zyberlane-wordmark.svg").replace(/data-glyph="[^"]+" /g,""));
-test("brand audit covers every 42 generated HTML page",()=>assert.equal(files.length,42));
+test("brand audit covers every 43 marketing HTML page",()=>assert.equal(files.length,43));
 test("standalone wordmark is vector, original and independent of loaded fonts",()=>{
   const word=read("assets/brand/zyberlane-wordmark.svg");
   const lock=read("assets/brand/zyberlane-lockup.svg");

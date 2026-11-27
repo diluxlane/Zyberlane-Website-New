@@ -9,6 +9,9 @@ on:
       - "tests/editorial-media.test.mjs"
       - "tests/capability-architecture.test.mjs"
       - "brand/**"
+      - "dist/assets/brand-kit/**"
+      - "tests/brand-kit.test.mjs"
+      - "tests/brand-kit.browser.mjs"
       - "dist/assets/chat-kb.json"
       - "dist/assets/chat/chat.js"
       - "media-replacement-manifest.json"
@@ -41,4 +44,29 @@ jobs:
         with:
           node-version: "22"
       - run: node --check dist/assets/chat/chat.js
-      - run: node --test tests/brand-identity.test.mjs tests/editorial-media.test.mjs tests/capability-architecture.test.mjs
+      - run: node --test tests/brand-identity.test.mjs tests/editorial-media.test.mjs tests/capability-architecture.test.mjs tests/brand-kit.test.mjs
+
+  brand-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: google-chrome --version
+      - run: node tests/brand-kit.browser.mjs
+      - name: Render PDF review book
+        run: |
+          command -v pdfinfo >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils)
+          pdfinfo dist/assets/brand-kit/zyberlane-brand-book.pdf | tee qa-brand-kit/pdf-info.txt
+          pdftoppm -r 80 -png dist/assets/brand-kit/zyberlane-brand-book.pdf qa-brand-kit/brand-book
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: zyberlane-brand-kit-qa
+          path: qa-brand-kit/
+          if-no-files-found: warn
+          retention-days: 14
